@@ -1,10 +1,10 @@
 0. About.
-iHelpers was created by Eduardo Almeida (MegaEduX.com).
+iHelpers is a set of classes designed to help with iOS development, reducing some tasks that would require a large sum of lines of code to just one or two. It was created and is being manteinaned by Eduardo Almeida (MegaEduX.com). Also, keep in mind that this project is still very young, so it still misses a lot of features.
 
 1. How can I use iHelpers?
 Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whenever you want to use any of its classes.
 
-2. What are iHelpers functions?
+2. What are the iHelpers functions?
 -> MEXMultitasking
 - (void)setNotificationForDate:(NSDate *)date withString:(NSString *)alertBody withSound:(NSString *)soundName withRepeatInterval:(int)seconds cancellingOtherNotifications:(BOOL)boolean; // Sheducles a local notification.
 - (BOOL)longTaskEnabled; // Check if long-task api multitasking is enabled.
@@ -16,3 +16,12 @@ Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whe
 -> MEXAlerts
 - (void)displayAlertWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIAlertView with options.
 - (void)displayActionSheetInView:(UIView *)view style:(UIActionSheetStyle)sheetStyle message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle destructiveButton:(NSString *)destructiveButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIActionSheet with options.
+
+3. Can I test iHelpers power before using it?
+Sure. Just open the Xcode project, and run it.
+
+4. Do I need something special to compile iHelpers?
+Nope, just what you normally use to develop for iOS (Latest Xcode with iOS SDK).
+
+5. Do I need to give any appreciation when using iHelpers?
+It would be very appreciated.
