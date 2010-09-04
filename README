@@ -1,0 +1,18 @@
+0. About.
+iHelpers was created by Eduardo Almeida (MegaEduX.com).
+
+1. How can I use iHelpers?
+Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whenever you want to use any of its classes.
+
+2. What are iHelpers functions?
+-> MEXMultitasking
+- (void)setNotificationForDate:(NSDate *)date withString:(NSString *)alertBody withSound:(NSString *)soundName withRepeatInterval:(int)seconds cancellingOtherNotifications:(BOOL)boolean; // Sheducles a local notification.
+- (BOOL)longTaskEnabled; // Check if long-task api multitasking is enabled.
+- (void)setLongTaskEnabled:(BOOL)status; // Enable or disable long-task multitasking.
+
+-> MEXCracking
++ (BOOL)applicationIsCracked; // Reports if the application is cracked, or not.
+
+-> MEXAlerts
+- (void)displayAlertWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIAlertView with options.
+- (void)displayActionSheetInView:(UIView *)view style:(UIActionSheetStyle)sheetStyle message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle destructiveButton:(NSString *)destructiveButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIActionSheet with options.
