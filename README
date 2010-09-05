@@ -12,10 +12,19 @@ Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whe
 
 -> MEXCracking
 + (BOOL)applicationIsCracked; // Reports if the application is cracked, or not.
+- (void)ifCrackedCrashAfterLaunches:(int)appLaunches; // If the application is cracked, it will crash at launch after X launches.
+- (void)ifCrackedCrashAfterSeconds:(double)seconds; // If the application is cracked, it will crash after X seconds.
 
 -> MEXAlerts
 - (void)displayAlertWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIAlertView with options.
 - (void)displayActionSheetInView:(UIView *)view style:(UIActionSheetStyle)sheetStyle message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle destructiveButton:(NSString *)destructiveButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIActionSheet with options.
+
+-> MEXLog (NIGHTLY UNTESTED CLASS)
+- (void)logToConsole:(NSString *)string; // Same as NSLog.
+- (void)log:(NSString *)string toKey:(NSString *)key; // Logs a string to a user default.
+- (void)log:(NSString *)string toFile:(NSString *)filePath replacingContentsOfFile:(BOOL)replace appendingTimestamp:(BOOL)timestamp error:(NSError **)error; // Logs a string to a file with options.
+- (NSString *)stringFromFile:(NSString *)filePath error:(NSError **)error; // Turns the contents of a file into an NSString.
+- (NSString *)stringFromKey:(NSString *)key; // Turns the contents of a NSUserDefault into a NSString.
 
 3. Can I test iHelpers power before using it?
 Sure. Just open the Xcode project, and run it.
@@ -24,4 +33,7 @@ Sure. Just open the Xcode project, and run it.
 Nope, just what you normally use to develop for iOS (Latest Xcode with iOS SDK).
 
 5. Do I need to give any appreciation when using iHelpers?
-It would be very appreciated.
+It would be very appreciated, but I can't force anyone to. If you don't want to give appreciation on your application I'd appreciate you at least donated.
+
+6. Does this work on the Mac OS X SDK?
+This was made with the iOS SDK in mind, so even though some classes may work, they are completely unsupported.

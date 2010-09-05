@@ -16,6 +16,7 @@
 		6FE867CA1232647A003A5D62 /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
 		6FE867E512326633003A5D62 /* MEXiHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */; };
 		6FE8685912329DF0003A5D62 /* MEXAlerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8685812329DF0003A5D62 /* MEXAlerts.m */; };
+		6FE869D41232FEB6003A5D62 /* MEXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		6FE867E412326633003A5D62 /* MEXiHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXiHelperTest.m; sourceTree = "<group>"; };
 		6FE8685712329DF0003A5D62 /* MEXAlerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXAlerts.h; sourceTree = "<group>"; };
 		6FE8685812329DF0003A5D62 /* MEXAlerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXAlerts.m; sourceTree = "<group>"; };
+		6FE869D21232FEB6003A5D62 /* MEXLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXLog.h; sourceTree = "<group>"; };
+		6FE869D31232FEB6003A5D62 /* MEXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXLog.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iHelpers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHelpers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +65,8 @@
 				6FE867C91232647A003A5D62 /* MEXCracking.m */,
 				6FE8685712329DF0003A5D62 /* MEXAlerts.h */,
 				6FE8685812329DF0003A5D62 /* MEXAlerts.m */,
+				6FE869D21232FEB6003A5D62 /* MEXLog.h */,
+				6FE869D31232FEB6003A5D62 /* MEXLog.m */,
 			);
 			name = iHelpers;
 			path = Classes;
@@ -183,6 +188,7 @@
 				6FE867CA1232647A003A5D62 /* MEXCracking.m in Sources */,
 				6FE867E512326633003A5D62 /* MEXiHelperTest.m in Sources */,
 				6FE8685912329DF0003A5D62 /* MEXAlerts.m in Sources */,
+				6FE869D41232FEB6003A5D62 /* MEXLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

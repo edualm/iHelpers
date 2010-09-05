@@ -48,7 +48,7 @@
 					20,
 					810,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -243,6 +243,18 @@
 			6FE869CB1232ECF0003A5D62 /* PBXTextBookmark */ = 6FE869CB1232ECF0003A5D62 /* PBXTextBookmark */;
 			6FE869CC1232ECF0003A5D62 /* PBXTextBookmark */ = 6FE869CC1232ECF0003A5D62 /* PBXTextBookmark */;
 			6FE869CD1232ECF0003A5D62 /* PBXTextBookmark */ = 6FE869CD1232ECF0003A5D62 /* PBXTextBookmark */;
+			6FE86A08123305A9003A5D62 /* PlistBookmark */ = 6FE86A08123305A9003A5D62 /* PlistBookmark */;
+			6FE86A09123305A9003A5D62 /* PBXTextBookmark */ = 6FE86A09123305A9003A5D62 /* PBXTextBookmark */;
+			6FE86A0A123305A9003A5D62 /* PBXTextBookmark */ = 6FE86A0A123305A9003A5D62 /* PBXTextBookmark */;
+			6FE86A0B123305A9003A5D62 /* PBXTextBookmark */ = 6FE86A0B123305A9003A5D62 /* PBXTextBookmark */;
+			6FE86A0C123305A9003A5D62 /* PBXTextBookmark */ = 6FE86A0C123305A9003A5D62 /* PBXTextBookmark */;
+			6FE86A0D123305AC003A5D62 /* PBXTextBookmark */ = 6FE86A0D123305AC003A5D62 /* PBXTextBookmark */;
+			6FE86A0E123305AC003A5D62 /* PBXTextBookmark */ = 6FE86A0E123305AC003A5D62 /* PBXTextBookmark */;
+			6FE86A13123305C7003A5D62 /* XCBuildMessageTextBookmark */ = 6FE86A13123305C7003A5D62 /* XCBuildMessageTextBookmark */;
+			6FE86A14123305C7003A5D62 /* PBXTextBookmark */ = 6FE86A14123305C7003A5D62 /* PBXTextBookmark */;
+			6FE86A171233064D003A5D62 /* PBXTextBookmark */ = 6FE86A171233064D003A5D62 /* PBXTextBookmark */;
+			6FE86A181233064D003A5D62 /* PBXTextBookmark */ = 6FE86A181233064D003A5D62 /* PBXTextBookmark */;
+			6FE86A191233064D003A5D62 /* PBXTextBookmark */ = 6FE86A191233064D003A5D62 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6FE867A912326242003A5D62 /* Source Control */;
 		userBuildSettings = {
@@ -292,9 +304,9 @@
 	};
 	6FE867AC12326259003A5D62 /* iHelpers.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 169}}";
-			sepNavSelRange = "{136, 0}";
-			sepNavVisRange = "{0, 232}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 195}}";
+			sepNavSelRange = "{307, 0}";
+			sepNavVisRange = "{86, 221}";
 			sepNavWindowFrame = "{{0, 55}, {1280, 719}}";
 		};
 	};
@@ -323,17 +335,17 @@
 	};
 	6FE867C91232647A003A5D62 /* MEXCracking.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1221, 568}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 591}}";
 			sepNavSelRange = "{164, 0}";
 			sepNavVisRange = "{0, 388}";
-			sepNavWindowFrame = "{{0, 54}, {1280, 719}}";
+			sepNavWindowFrame = "{{0, 56}, {1280, 719}}";
 		};
 	};
 	6FE867E312326633003A5D62 /* MEXiHelperTest.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1221, 568}}";
-			sepNavSelRange = "{550, 0}";
-			sepNavVisRange = "{0, 557}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 364}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{3, 369}";
 			sepNavWindowFrame = "{{0, 56}, {1280, 719}}";
 		};
 	};
@@ -370,7 +382,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 10";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 192;
 		vrLoc = 0;
@@ -510,7 +522,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 13";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 194;
 		vrLoc = 0;
@@ -777,9 +789,9 @@
 	};
 	6FE8685812329DF0003A5D62 /* MEXAlerts.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1328, 416}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1958, 390}}";
 			sepNavSelRange = "{104, 0}";
-			sepNavVisRange = "{0, 345}";
+			sepNavVisRange = "{0, 386}";
 			sepNavWindowFrame = "{{0, 55}, {1280, 719}}";
 		};
 	};
@@ -822,7 +834,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 13";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 194;
 		vrLoc = 0;
@@ -832,7 +844,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 15";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 215;
 		vrLoc = 0;
@@ -842,7 +854,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 15";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 277;
 		vrLoc = 0;
@@ -910,7 +922,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 15";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 215;
 		vrLoc = 0;
@@ -920,7 +932,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 17";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 215;
 		vrLoc = 0;
@@ -960,7 +972,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 17";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 215;
 		vrLoc = 0;
@@ -974,7 +986,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 17";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 215;
 		vrLoc = 0;
@@ -1348,7 +1360,7 @@
 		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
 		name = "iHelpers.h: 15";
 		rLen = 0;
-		rLoc = 273;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 243;
 		vrLoc = 34;
@@ -2109,5 +2121,141 @@
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
+	};
+	6FE869D21232FEB6003A5D62 /* MEXLog.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 591}}";
+			sepNavSelRange = "{329, 0}";
+			sepNavVisRange = "{0, 493}";
+		};
+	};
+	6FE869D31232FEB6003A5D62 /* MEXLog.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 1482}}";
+			sepNavSelRange = "{158, 0}";
+			sepNavVisRange = "{138, 393}";
+			sepNavWindowFrame = "{{0, 56}, {1280, 719}}";
+		};
+	};
+	6FE86A08123305A9003A5D62 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iHelpers-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/MegaEduX/Coding/iHelpers/iHelpers-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6FE86A09123305A9003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE869D21232FEB6003A5D62 /* MEXLog.h */;
+		name = "MEXLog.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 0;
+	};
+	6FE86A0A123305A9003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE8685812329DF0003A5D62 /* MEXAlerts.m */;
+		name = "MEXAlerts.m: 5";
+		rLen = 0;
+		rLoc = 104;
+		rType = 0;
+		vrLen = 386;
+		vrLoc = 0;
+	};
+	6FE86A0B123305A9003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */;
+		name = "MEXLog.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	6FE86A0C123305A9003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */;
+		name = "MEXLog.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 138;
+	};
+	6FE86A0D123305AC003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
+		name = "MEXiHelperTest.h: 12";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 369;
+		vrLoc = 3;
+	};
+	6FE86A0E123305AC003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */;
+		name = "MEXLog.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 135;
+	};
+	6FE86A13123305C7003A5D62 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "#warning \"MEXLog is /untested/ code and consequently may not even run properly. If you /need/ it to, please wait for the next commit.\"";
+		fRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	6FE86A14123305C7003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */;
+		name = "MEXLog.m: 10";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 138;
+	};
+	6FE86A171233064D003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */;
+		name = "MEXLog.m: 10";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 138;
+	};
+	6FE86A181233064D003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
+		name = "iHelpers.h: 6";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	6FE86A191233064D003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
+		name = "iHelpers.h: 15";
+		rLen = 0;
+		rLoc = 307;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 86;
 	};
 }
