@@ -197,7 +197,49 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>6FE86A6E1233A5A1003A5D62</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>MEXiHelperTest.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>6FE86A6F1233A5A1003A5D62</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>MEXiHelperTest.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>6FE86A7F1233A6A7003A5D62</string>
+						<key>history</key>
+						<array>
+							<string>6FE86A701233A5A1003A5D62</string>
+							<string>6FE86A711233A5A1003A5D62</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1280, 622}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>0 113 1280 663 0 0 1280 778 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>1280</integer>
@@ -236,6 +278,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -281,7 +325,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>13</integer>
 									<integer>4</integer>
 									<integer>0</integer>
 								</array>
@@ -315,14 +359,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>6FE867E812326643003A5D62</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>iHelpers.h</string>
+								<string>MEXCracking.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,25 +372,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>6FE867E912326643003A5D62</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>iHelpers.h</string>
+										<string>MEXCracking.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6FE86A191233064D003A5D62</string>
+										<string>6FE86A7E1233A6A7003A5D62</string>
 										<key>history</key>
 										<array>
 											<string>6FE8698D1232C64B003A5D62</string>
-											<string>6FE8698F1232C64B003A5D62</string>
 											<string>6FE869901232C64B003A5D62</string>
 											<string>6FE869921232C64B003A5D62</string>
-											<string>6FE869941232C64B003A5D62</string>
-											<string>6FE869991232C697003A5D62</string>
 											<string>6FE869A01232EADA003A5D62</string>
 											<string>6FE86A08123305A9003A5D62</string>
-											<string>6FE86A09123305A9003A5D62</string>
-											<string>6FE86A0A123305A9003A5D62</string>
 											<string>6FE86A171233064D003A5D62</string>
-											<string>6FE86A181233064D003A5D62</string>
+											<string>6FE86A651233A5A1003A5D62</string>
+											<string>6FE86A661233A5A1003A5D62</string>
+											<string>6FE86A671233A5A1003A5D62</string>
+											<string>6FE86A691233A5A1003A5D62</string>
+											<string>6FE86A6A1233A5A1003A5D62</string>
+											<string>6FE86A6B1233A5A1003A5D62</string>
+											<string>6FE86A6C1233A5A1003A5D62</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -666,6 +709,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>6FE86A6E1233A5A1003A5D62</string>
 		<string>/Users/MegaEduX/Coding/iHelpers/iHelpers.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

@@ -16,6 +16,7 @@
 	
 	MEXMultitasking *multiTasking;
 	MEXAlerts *alerts;
+	MEXCracking *cracking;
 }
 
 - (IBAction)checkCrack;

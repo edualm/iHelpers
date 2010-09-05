@@ -44,4 +44,15 @@
 	}
 }
 
+- (NSString *)stringFromFile:(NSString *)filePath error:(NSError **)error {
+	NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:error];
+	return fileContents;
+}
+
+- (NSString *)stringFromKey:(NSString *)key {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *string = [defaults objectForKey:key];
+	return string;
+}
+
 @end

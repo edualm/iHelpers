@@ -255,6 +255,19 @@
 			6FE86A171233064D003A5D62 /* PBXTextBookmark */ = 6FE86A171233064D003A5D62 /* PBXTextBookmark */;
 			6FE86A181233064D003A5D62 /* PBXTextBookmark */ = 6FE86A181233064D003A5D62 /* PBXTextBookmark */;
 			6FE86A191233064D003A5D62 /* PBXTextBookmark */ = 6FE86A191233064D003A5D62 /* PBXTextBookmark */;
+			6FE86A651233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A651233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A661233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A661233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A671233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A671233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A691233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A691233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A6A1233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A6A1233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A6B1233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A6B1233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A6C1233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A6C1233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A6D1233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A6D1233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A701233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A701233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A711233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A711233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A721233A5A1003A5D62 /* PBXTextBookmark */ = 6FE86A721233A5A1003A5D62 /* PBXTextBookmark */;
+			6FE86A7E1233A6A7003A5D62 /* PBXTextBookmark */ = 6FE86A7E1233A6A7003A5D62 /* PBXTextBookmark */;
+			6FE86A7F1233A6A7003A5D62 /* PBXTextBookmark */ = 6FE86A7F1233A6A7003A5D62 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6FE867A912326242003A5D62 /* Source Control */;
 		userBuildSettings = {
@@ -306,7 +319,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1012, 195}}";
 			sepNavSelRange = "{307, 0}";
-			sepNavVisRange = "{86, 221}";
+			sepNavVisRange = "{83, 210}";
 			sepNavWindowFrame = "{{0, 55}, {1280, 719}}";
 		};
 	};
@@ -322,38 +335,38 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1370, 1040}}";
 			sepNavSelRange = "{110, 0}";
-			sepNavVisRange = "{0, 175}";
+			sepNavVisRange = "{0, 370}";
 			sepNavWindowFrame = "{{0, 57}, {1280, 719}}";
 		};
 	};
 	6FE867C81232647A003A5D62 /* MEXCracking.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1221, 568}}";
-			sepNavSelRange = "{220, 0}";
-			sepNavVisRange = "{0, 220}";
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 591}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 367}";
 		};
 	};
 	6FE867C91232647A003A5D62 /* MEXCracking.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1221, 591}}";
-			sepNavSelRange = "{164, 0}";
-			sepNavVisRange = "{0, 388}";
-			sepNavWindowFrame = "{{0, 56}, {1280, 719}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 988}}";
+			sepNavSelRange = "{194, 0}";
+			sepNavVisRange = "{133, 251}";
+			sepNavWindowFrame = "{{0, 57}, {1280, 719}}";
 		};
 	};
 	6FE867E312326633003A5D62 /* MEXiHelperTest.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 364}}";
-			sepNavSelRange = "{239, 0}";
-			sepNavVisRange = "{3, 369}";
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 591}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{0, 581}";
 			sepNavWindowFrame = "{{0, 56}, {1280, 719}}";
 		};
 	};
 	6FE867E412326633003A5D62 /* MEXiHelperTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1363, 728}}";
-			sepNavSelRange = "{1468, 0}";
-			sepNavVisRange = "{0, 979}";
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 858}}";
+			sepNavSelRange = "{444, 0}";
+			sepNavVisRange = "{0, 1052}";
 			sepNavWindowFrame = "{{0, 56}, {1280, 719}}";
 		};
 	};
@@ -432,7 +445,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 19";
 		rLen = 0;
-		rLoc = 1495;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 268;
 		vrLoc = 0;
@@ -442,7 +455,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 13";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 415;
 		rType = 0;
 		vrLen = 249;
 		vrLoc = 0;
@@ -472,7 +485,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 16";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 415;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 0;
@@ -492,7 +505,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 22";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 417;
 		vrLoc = 0;
@@ -552,7 +565,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 18";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 575;
 		rType = 0;
 		vrLen = 176;
 		vrLoc = 147;
@@ -572,7 +585,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 22";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 417;
 		vrLoc = 0;
@@ -582,7 +595,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 23";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 0;
@@ -605,7 +618,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 14";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 415;
 		rType = 0;
 		vrLen = 161;
 		vrLoc = 143;
@@ -674,7 +687,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 32";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 0;
@@ -714,7 +727,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 32";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 0;
@@ -754,7 +767,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 32";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 0;
@@ -764,7 +777,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 37";
 		rLen = 0;
-		rLoc = 1495;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 0;
@@ -791,7 +804,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1958, 390}}";
 			sepNavSelRange = "{104, 0}";
-			sepNavVisRange = "{0, 386}";
+			sepNavVisRange = "{0, 526}";
 			sepNavWindowFrame = "{{0, 55}, {1280, 719}}";
 		};
 	};
@@ -1066,7 +1079,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 37";
 		rLen = 0;
-		rLoc = 1498;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 256;
 		vrLoc = 613;
@@ -1096,7 +1109,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 36";
 		rLen = 0;
-		rLoc = 1497;
+		rLoc = 1570;
 		rType = 0;
 		vrLen = 869;
 		vrLoc = 0;
@@ -1106,7 +1119,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 37";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 0;
@@ -1153,7 +1166,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 37";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 0;
@@ -1183,7 +1196,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 41";
 		rLen = 0;
-		rLoc = 1495;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 574;
@@ -1193,7 +1206,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 44";
 		rLen = 0;
-		rLoc = 1495;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 426;
 		vrLoc = 574;
@@ -1213,7 +1226,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 40";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 0;
@@ -1223,7 +1236,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 40";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 0;
@@ -1270,7 +1283,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 44";
 		rLen = 0;
-		rLoc = 1495;
+		rLoc = 1568;
 		rType = 0;
 		vrLen = 426;
 		vrLoc = 574;
@@ -1290,7 +1303,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 39";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 512;
 		vrLoc = 613;
@@ -1300,7 +1313,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 39";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 613;
@@ -1381,7 +1394,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 39";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 613;
@@ -1391,7 +1404,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 43";
 		rLen = 0;
-		rLoc = 400;
+		rLoc = 473;
 		rType = 0;
 		vrLen = 535;
 		vrLoc = 776;
@@ -1410,7 +1423,7 @@
 		isa = PBXTextBookmark;
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		rLen = 0;
-		rLoc = 9223372036854775996;
+		rLoc = 9223372036854776020;
 		rType = 0;
 	};
 	6FE869451232BF3B003A5D62 /* PBXTextBookmark */ = {
@@ -1429,7 +1442,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 22;
+		rLoc = 24;
 		rType = 1;
 	};
 	6FE8694F1232C06D003A5D62 /* PBXTextBookmark */ = {
@@ -1437,7 +1450,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 38";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 553;
 		vrLoc = 776;
@@ -1457,7 +1470,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 38";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 804;
@@ -1477,7 +1490,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 38";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 804;
@@ -1487,7 +1500,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 41";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 698;
@@ -1497,7 +1510,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 41";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 804;
@@ -1544,7 +1557,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 41";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 804;
@@ -1554,7 +1567,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 38";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 698;
@@ -1568,7 +1581,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 38";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 804;
@@ -1598,7 +1611,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 38";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 804;
@@ -1628,7 +1641,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 38";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 804;
@@ -1732,7 +1745,7 @@
 		fRef = 6FE867C81232647A003A5D62 /* MEXCracking.h */;
 		name = "MEXCracking.h: 14";
 		rLen = 0;
-		rLoc = 185;
+		rLoc = 226;
 		rType = 0;
 		vrLen = 113;
 		vrLoc = 107;
@@ -1752,7 +1765,7 @@
 		fRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */;
 		name = "MEXCracking.m: 12";
 		rLen = 0;
-		rLoc = 164;
+		rLoc = 194;
 		rType = 0;
 		vrLen = 260;
 		vrLoc = 24;
@@ -1762,7 +1775,7 @@
 		fRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */;
 		name = "MEXCracking.m: 12";
 		rLen = 0;
-		rLoc = 164;
+		rLoc = 194;
 		rType = 0;
 		vrLen = 260;
 		vrLoc = 24;
@@ -1773,7 +1786,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 20;
+		rLoc = 22;
 		rType = 1;
 	};
 	6FE8699B1232C697003A5D62 /* PBXTextBookmark */ = {
@@ -1781,7 +1794,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 22";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 445;
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 331;
@@ -1791,7 +1804,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 21";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 445;
 		rType = 0;
 		vrLen = 250;
 		vrLoc = 325;
@@ -1821,7 +1834,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 24";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 0;
@@ -1871,7 +1884,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 25";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -1891,7 +1904,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 25";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -1921,7 +1934,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 25";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -1985,7 +1998,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 25";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -2025,7 +2038,7 @@
 		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
 		name = "MEXiHelperTest.m: 55";
 		rLen = 0;
-		rLoc = 1468;
+		rLoc = 1541;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 0;
@@ -2035,7 +2048,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 25";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -2065,7 +2078,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 25";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -2117,7 +2130,7 @@
 		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
 		name = "MEXiHelperTest.h: 25";
 		rLen = 0;
-		rLoc = 550;
+		rLoc = 574;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 0;
@@ -2125,16 +2138,16 @@
 	6FE869D21232FEB6003A5D62 /* MEXLog.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1221, 591}}";
-			sepNavSelRange = "{329, 0}";
-			sepNavVisRange = "{0, 493}";
+			sepNavSelRange = "{607, 0}";
+			sepNavVisRange = "{0, 613}";
 		};
 	};
 	6FE869D31232FEB6003A5D62 /* MEXLog.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 1482}}";
-			sepNavSelRange = "{158, 0}";
-			sepNavVisRange = "{138, 393}";
-			sepNavWindowFrame = "{{0, 56}, {1280, 719}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 767}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{299, 1915}";
+			sepNavWindowFrame = "{{0, 57}, {1280, 719}}";
 		};
 	};
 	6FE86A08123305A9003A5D62 /* PlistBookmark */ = {
@@ -2257,5 +2270,141 @@
 		rType = 0;
 		vrLen = 221;
 		vrLoc = 86;
+	};
+	6FE86A651233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE869D21232FEB6003A5D62 /* MEXLog.h */;
+		name = "MEXLog.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 0;
+	};
+	6FE86A661233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867AC12326259003A5D62 /* iHelpers.h */;
+		name = "iHelpers.h: 15";
+		rLen = 0;
+		rLoc = 307;
+		rType = 0;
+		vrLen = 210;
+		vrLoc = 83;
+	};
+	6FE86A671233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE86A681233A5A1003A5D62 /* MEXErrorReporting.m */;
+		name = "MEXErrorReporting.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 256;
+	};
+	6FE86A681233A5A1003A5D62 /* MEXErrorReporting.m */ = {
+		isa = PBXFileReference;
+		name = MEXErrorReporting.m;
+		path = /Users/MegaEduX/Coding/iHelpers/Classes/MEXErrorReporting.m;
+		sourceTree = "<absolute>";
+	};
+	6FE86A691233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */;
+		name = "MEXMultitasking.m: 5";
+		rLen = 0;
+		rLoc = 110;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	6FE86A6A1233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE8685812329DF0003A5D62 /* MEXAlerts.m */;
+		name = "MEXAlerts.m: 5";
+		rLen = 0;
+		rLoc = 104;
+		rType = 0;
+		vrLen = 526;
+		vrLoc = 0;
+	};
+	6FE86A6B1233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867C81232647A003A5D62 /* MEXCracking.h */;
+		name = "MEXCracking.h: 14";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 116;
+		vrLoc = 104;
+	};
+	6FE86A6C1233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */;
+		name = "MEXCracking.m: 12";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 24;
+	};
+	6FE86A6D1233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */;
+		name = "MEXCracking.m: 16";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 133;
+	};
+	6FE86A701233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867E312326633003A5D62 /* MEXiHelperTest.h */;
+		name = "MEXiHelperTest.h: 19";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	6FE86A711233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
+		name = "MEXiHelperTest.m: 22";
+		rLen = 0;
+		rLoc = 444;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
+	};
+	6FE86A721233A5A1003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
+		name = "MEXiHelperTest.m: 22";
+		rLen = 0;
+		rLoc = 444;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 0;
+	};
+	6FE86A7E1233A6A7003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */;
+		name = "MEXCracking.m: 16";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 133;
+	};
+	6FE86A7F1233A6A7003A5D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */;
+		name = "MEXiHelperTest.m: 22";
+		rLen = 0;
+		rLoc = 444;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
 	};
 }

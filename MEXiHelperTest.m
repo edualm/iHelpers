@@ -14,10 +14,12 @@
 - (void)awakeFromNib {
 	multiTasking = [MEXMultitasking new];
 	alerts = [MEXAlerts new];
+	cracking = [MEXCracking new];
 	
 	[window addSubview:viewController.view];
 	[window makeKeyAndVisible];
 	
+	[cracking ifCrackedCrashAfterSeconds:5];
 }
 	
 - (IBAction)checkCrack {
