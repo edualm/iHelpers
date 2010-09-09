@@ -7,9 +7,11 @@
 #import "MEXMultitasking.h"
 #import "MEXCracking.h"
 #import "MEXAlerts.h"
-#import "MEXLog.h"
+// #import "MEXLog.h"
 
 @class MEXCracking;
 @class MEXMultitasking;
 @class MEXAlerts;
-@class MEXLog;
+// @class MEXLog;
+
+// MEXLog is untested code. Use at your own risk.

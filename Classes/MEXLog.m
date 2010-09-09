@@ -1,9 +1,7 @@
 //
 //  MEXLog.m
-//  iHelpers
 //
-//  Created by Eduardo Almeida on 10/09/04.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Part of iHelpers, an open-source project by Eduardo Almeida (MegaEduX.com).
 //
 
 #import "MEXLog.h"

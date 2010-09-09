@@ -49,7 +49,7 @@
 	
 		shouldCrashNow = YES;
 	
-		[NSTimer scheduledTimerWithTimeInterval:seconds target:self selector:@selector(ifCrackedCrashAfterMinutes:) userInfo:nil repeats:NO];
+		[NSTimer scheduledTimerWithTimeInterval:seconds target:self selector:@selector(ifCrackedCrashAfterSeconds:) userInfo:nil repeats:NO];
 	}
 }
 
