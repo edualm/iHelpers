@@ -8,10 +8,12 @@
 #import "MEXCracking.h"
 #import "MEXAlerts.h"
 // #import "MEXLog.h"
+// #import "MEXAV.h"
 
 @class MEXCracking;
 @class MEXMultitasking;
 @class MEXAlerts;
 // @class MEXLog;
+// @class MEXAV;
 
-// MEXLog is untested code. Use at your own risk.
+// MEXLog and MEXAV are untested code. Use at your own risk.

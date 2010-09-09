@@ -26,6 +26,10 @@ Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whe
 - (NSString *)stringFromFile:(NSString *)filePath error:(NSError **)error; // Turns the contents of a file into an NSString.
 - (NSString *)stringFromKey:(NSString *)key; // Turns the contents of a NSUserDefault into a NSString.
 
+-> MEXAV (NIGHTLY UNTESTED CLASS)
+- (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension; // Play a sound
+- (void)playVideoWithPath:(NSString *)fileName type:(NSString *)extension view:(UIView *)viewToDisplay; // Play a video
+
 3. Can I test iHelpers power before using it?
 Sure. Just open the Xcode project, and run it.
 
