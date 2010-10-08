@@ -30,6 +30,9 @@ Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whe
 - (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension; // Play a sound
 - (void)playVideoWithPath:(NSString *)fileName type:(NSString *)extension view:(UIView *)viewToDisplay; // Play a video
 
+-> MEXRandom (WORK IN PROGRESS, BUT WORKING)
++ (int)generateRandomNumberUpTo:(int)number // Generate a random int from 0 to number
+
 3. Can I test iHelpers power before using it?
 Sure. Just open the Xcode project, and run it.
 

@@ -20,6 +20,8 @@
 	[window makeKeyAndVisible];
 	
 	[cracking ifCrackedCrashAfterSeconds:5];
+	
+	NSLog(@"iHelpers by MegaEduX. Availavable freely at http://github.com/MegaEduX/iHelpers");
 }
 	
 - (IBAction)checkCrack {
@@ -30,13 +32,17 @@
 	}
 }
 
+- (IBAction)randomNumberUpTo12 {
+	NSLog(@"Random number up to 12: %d", [MEXRandom generateRandomNumberUpTo:12]);
+}
+
 - (IBAction)enableDisableMultitasking {
 	if ([multiTasking longTaskEnabled]) {
 		[multiTasking setLongTaskEnabled:NO];
 		NSLog(@"Multitasking disabled.");
 	} else {
 		[multiTasking setLongTaskEnabled:YES];
-		NSLog(@"Multitasking disabled.");
+		NSLog(@"Multitasking enabled.");
 	}
 }
 

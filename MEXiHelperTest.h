@@ -24,5 +24,6 @@
 - (IBAction)sendLocalNotification;
 - (IBAction)displayAlert;
 - (IBAction)displayActionSheet;
+- (IBAction)randomNumberUpTo12;
 
 @end

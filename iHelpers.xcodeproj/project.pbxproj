@@ -15,6 +15,7 @@
 		6F275F791239750200289B22 /* MEXAV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F275F781239750200289B22 /* MEXAV.m */; };
 		6F275F82123975C700289B22 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F275F81123975C700289B22 /* AVFoundation.framework */; };
 		6F275F9C123977A900289B22 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F275F9B123977A900289B22 /* MediaPlayer.framework */; };
+		6FD8B0F8125F9BD100EFB4AE /* MEXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */; };
 		6FE867B4123262AC003A5D62 /* MEXMultitasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */; };
 		6FE867CA1232647A003A5D62 /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
 		6FE867E512326633003A5D62 /* MEXiHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */; };
@@ -34,6 +35,8 @@
 		6F275F781239750200289B22 /* MEXAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXAV.m; sourceTree = "<group>"; };
 		6F275F81123975C700289B22 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6F275F9B123977A900289B22 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXRandom.h; sourceTree = "<group>"; };
+		6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXRandom.m; sourceTree = "<group>"; };
 		6FE867AC12326259003A5D62 /* iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHelpers.h; sourceTree = "<group>"; };
 		6FE867B2123262AC003A5D62 /* MEXMultitasking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXMultitasking.h; sourceTree = "<group>"; };
 		6FE867B3123262AC003A5D62 /* MEXMultitasking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXMultitasking.m; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				6FE8685812329DF0003A5D62 /* MEXAlerts.m */,
 				6FE869D21232FEB6003A5D62 /* MEXLog.h */,
 				6FE869D31232FEB6003A5D62 /* MEXLog.m */,
+				6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */,
+				6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */,
 			);
 			name = iHelpers;
 			path = Classes;
@@ -203,6 +208,7 @@
 				6FE8685912329DF0003A5D62 /* MEXAlerts.m in Sources */,
 				6FE869D41232FEB6003A5D62 /* MEXLog.m in Sources */,
 				6F275F791239750200289B22 /* MEXAV.m in Sources */,
+				6FD8B0F8125F9BD100EFB4AE /* MEXRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
