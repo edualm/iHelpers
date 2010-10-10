@@ -13,7 +13,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="10"/>
-			<integer value="36"/>
+			<integer value="16"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -170,7 +170,7 @@
 						<object class="IBUIButton" id="367229212">
 							<reference key="NSNextResponder" ref="743660099"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{56, 324}, {208, 37}}</string>
+							<string key="NSFrame">{{88, 324}, {143, 37}}</string>
 							<reference key="NSSuperview" ref="743660099"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -178,7 +178,7 @@
 							<int key="IBUIContentVerticalAlignment">0</int>
 							<reference key="IBUIFont" ref="346112968"/>
 							<int key="IBUIButtonType">1</int>
-							<string key="IBUINormalTitle">Random Number up to 12</string>
+							<string key="IBUINormalTitle">Random Number</string>
 							<reference key="IBUIHighlightedTitleColor" ref="500956412"/>
 							<object class="NSColor" key="IBUINormalTitleColor">
 								<int key="NSColorSpace">1</int>
@@ -320,12 +320,12 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">randomNumberUpTo12</string>
+						<string key="label">randomNumber</string>
 						<reference key="source" ref="367229212"/>
 						<reference key="destination" ref="664661524"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">42</int>
+					<int key="connectionID">43</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -509,7 +509,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">42</int>
+			<int key="maxID">43</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -525,7 +525,7 @@
 							<string>displayActionSheet</string>
 							<string>displayAlert</string>
 							<string>enableDisableMultitasking</string>
-							<string>randomNumberUpTo12</string>
+							<string>randomNumber</string>
 							<string>sendLocalNotification</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -546,7 +546,7 @@
 							<string>displayActionSheet</string>
 							<string>displayAlert</string>
 							<string>enableDisableMultitasking</string>
-							<string>randomNumberUpTo12</string>
+							<string>randomNumber</string>
 							<string>sendLocalNotification</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -568,7 +568,7 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">randomNumberUpTo12</string>
+								<string key="name">randomNumber</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">

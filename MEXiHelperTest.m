@@ -32,8 +32,9 @@
 	}
 }
 
-- (IBAction)randomNumberUpTo12 {
-	NSLog(@"Random number up to 12: %d", [MEXRandom generateRandomNumberUpTo:12]);
+- (IBAction)randomNumber {
+	NSLog(@"Random number up to 12: %d", [MEXRandom randomNumberUpTo:12]);
+	NSLog(@"Random number from 1250 to 1369: %d", [MEXRandom randomNumberFrom:1250 to:1369]);
 }
 
 - (IBAction)enableDisableMultitasking {

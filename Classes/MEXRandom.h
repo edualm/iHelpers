@@ -10,6 +10,7 @@
 
 }
 
-+ (int)generateRandomNumberUpTo:(int)number;
++ (int)randomNumberUpTo:(int)number;
++ (int)randomNumberFrom:(int)from to:(int)to;
 
 @end
