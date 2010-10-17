@@ -14,6 +14,8 @@ Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whe
 + (BOOL)applicationIsCracked; // Reports if the application is cracked, or not.
 - (void)ifCrackedCrashAfterLaunches:(int)appLaunches; // If the application is cracked, it will crash at launch after X launches.
 - (void)ifCrackedCrashAfterSeconds:(double)seconds; // If the application is cracked, it will crash after X seconds.
+- (void)ifCrackedOpenURL:(NSURL *)url afterSeconds:(double)seconds andCrash:(BOOL)crashApp; // If the application is cracked, it will open an URL after X seconds and crash (or not).
+- (void)ifCrackedOpenURL:(NSURL *)url afterLaunches:(int)appLaunches andCrash:(BOOL)crashApp; // If the application is cracked, it will open an URL after X launches and crash (or not).
 
 -> MEXAlerts
 - (void)displayAlertWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIAlertView with options.
