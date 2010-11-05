@@ -13,7 +13,6 @@
 
 - (void)awakeFromNib {
 	multiTasking = [MEXMultitasking new];
-	alerts = [MEXAlerts new];
 	cracking = [MEXCracking new];
 	
 	[window addSubview:viewController.view];
@@ -57,10 +56,10 @@
 }
 
 - (IBAction)displayAlert {
-	[alerts displayAlertWithTitle:@"Test Alert" message:@"Test Message" delegate:self cancelButton:@"Button" otherButton:@"Button", nil];
+	[UIAlertView displayAlertWithTitle:@"Test Alert" message:@"Test Message" delegate:self cancelButton:@"Button" otherButton:@"Button", nil];
 }
 
 - (IBAction)displayActionSheet {
-	[alerts displayActionSheetInView:view style:UIActionSheetStyleDefault message:@"This is a test action sheet." delegate:self cancelButton:@"Okay." destructiveButton:@"Doh!" otherButton:nil];
+	[UIActionSheet displayActionSheetInView:view style:UIActionSheetStyleDefault message:@"This is a test action sheet." delegate:self cancelButton:@"Okay." destructiveButton:@"Doh!" otherButton:nil];
 }
 @end

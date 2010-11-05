@@ -16,7 +16,7 @@
 + (int)randomNumberFrom:(int)from to:(int)to {
 	srandomdev();
 	if (from>to) {
-		NSLog(@"Hey! MEXRandom speaking! (int)from can't be bigger than (int)to!");
+		[NSException exceptionWithName:@"FROM_IS_GIANT!" reason:@"Hey! MEXRandom speaking! (int)from can't be bigger than (int)to!" userInfo:nil];
 		return 0;
 	} else {
 		int beef = to - from;

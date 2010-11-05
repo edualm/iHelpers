@@ -5,7 +5,6 @@
 //
 
 #import "MEXLog.h"
-#warning "MEXLog is /untested/ code and consequently may not even run properly. If you /need/ it working, please wait for the next commit."
 
 @implementation MEXLog
 

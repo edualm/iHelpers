@@ -6,16 +6,15 @@
 
 #import "MEXMultitasking.h"
 #import "MEXCracking.h"
-#import "MEXAlerts.h"
-// #import "MEXLog.h"
-// #import "MEXAV.h"
+#import "UIAlertView+iHelpers.h"
+#import "MEXLog.h"
+#import "MPMoviePlayerController+iHelpers.h"
+#import "AVAudioPlayer+iHelpers.h"
 #import "MEXRandom.h"
 
 @class MEXCracking;
 @class MEXMultitasking;
-@class MEXAlerts;
-// @class MEXLog;
-// @class MEXAV;
+@class MEXLog;
 @class MEXRandom;
 
-// MEXLog and MEXAV are untested code. Use at your own risk.
+// MEXLog and the AVAudioPlayer forward class are untested code. Use at your own risk.

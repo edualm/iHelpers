@@ -6,66 +6,9 @@ iHelpers is a set of classes designed to help with iOS development, reducing som
 
 Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whenever you want to use any of its classes.
 
-**2. What are the iHelpers functions?**
+**2. What can iHelpers do?**
 
-
--> MEXMultitasking
-
-- (void)setNotificationForDate:(NSDate *)date withString:(NSString *)alertBody withSound:(NSString *)soundName withRepeatInterval:(int)seconds 
-cancellingOtherNotifications:(BOOL)boolean; // Sheducles a local notification.
-
-- (BOOL)longTaskEnabled; // Check if long-task api multitasking is enabled.
-
-- (void)setLongTaskEnabled:(BOOL)status; // Enable or disable long-task multitasking.
-
-
--> MEXCracking
-
-+ (BOOL)applicationIsCracked; // Reports if the application is cracked, or not.
-
-- (void)ifCrackedCrashAfterLaunches:(int)appLaunches; // If the application is cracked, it will crash at launch after X launches.
-
-- (void)ifCrackedCrashAfterSeconds:(double)seconds; // If the application is cracked, it will crash after X seconds.
-
-- (void)ifCrackedOpenURL:(NSURL *)url afterSeconds:(double)seconds andCrash:(BOOL)crashApp; // If the application is cracked, it will open an URL after X seconds and crash (or not).
-
-- (void)ifCrackedOpenURL:(NSURL *)url afterLaunches:(int)appLaunches andCrash:(BOOL)crashApp; // If the application is cracked, it will open an URL after X launches and crash (or not).
-
-
--> MEXAlerts
-
-- (void)displayAlertWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIAlertView with options.
-
-- (void)displayActionSheetInView:(UIView *)view style:(UIActionSheetStyle)sheetStyle message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle destructiveButton:(NSString *)destructiveButtonTitle otherButton:(NSString *)otherButtonTitle, ...; // Displays a UIActionSheet with options.
-
-
--> MEXLog (NIGHTLY UNTESTED CLASS)
-
-- (void)logToConsole:(NSString *)string; // Same as NSLog.
-
-- (void)log:(NSString *)string toKey:(NSString *)key; // Logs a string to a user default.
-
-- (void)log:(NSString *)string toFile:(NSString *)filePath replacingContentsOfFile:(BOOL)replace appendingTimestamp:(BOOL)timestamp error:(NSError 
-**)error; // Logs a string to a file with options.
-
-- (NSString *)stringFromFile:(NSString *)filePath error:(NSError **)error; // Turns the contents of a file into an NSString.
-
-- (NSString *)stringFromKey:(NSString *)key; // Turns the contents of a NSUserDefault into a NSString.
-
-
--> MEXAV (NIGHTLY UNTESTED CLASS)
-
-- (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension; // Play a sound
-
-- (void)playVideoWithPath:(NSString *)fileName type:(NSString *)extension view:(UIView *)viewToDisplay; // Play a video
-
-
--> MEXRandom (WORK IN PROGRESS, BUT WORKING)
-
-+ (int)randomNumberUpTo:(int)number; // Generate a random int from 0 to number
-
-+ (int)randomNumberFrom:(int)from to:(int)to; // Generate a random int from a number to another
-
+iHelpers is becoming a bit too big to explain each class. But, well... just check the headers. It's self-explainable. :P
 
 **3. Can I test iHelpers power before using it?**
 

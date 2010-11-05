@@ -15,7 +15,6 @@
 	IBOutlet UIViewController *viewController;
 	
 	MEXMultitasking *multiTasking;
-	MEXAlerts *alerts;
 	MEXCracking *cracking;
 }
 
