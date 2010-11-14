@@ -17,8 +17,6 @@
 // them without allocating it, if you don't want/need the additional things.
 //
 
-@synthesize loggedIn;
-
 #pragma mark -
 #pragma mark General
 
@@ -37,7 +35,6 @@
 		[[GKLocalPlayer localPlayer] authenticateWithCompletionHandler:^(NSError *error) {
 			if (error == nil) {
 				[self flushScore];
-				[self setLoggedIn:YES];
 			}
 		}];
 	}
@@ -45,6 +42,10 @@
 
 + (BOOL)hasGameCenterSupport {
 	return gameCenterEnabled;
+}
+
++ (BOOL)isLoggedIn {
+	return [[GKLocalPlayer localPlayer] isAuthenticated];
 }
 
 #pragma mark -

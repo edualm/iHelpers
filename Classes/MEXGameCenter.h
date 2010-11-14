@@ -22,7 +22,6 @@
 + (void)authenticatePlayer;
 - (void)authenticatePlayer;
 + (BOOL)hasGameCenterSupport;
-
-@property BOOL loggedIn;
++ (BOOL)isLoggedIn;
 
 @end
