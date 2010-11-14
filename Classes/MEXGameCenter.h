@@ -21,6 +21,7 @@
 + (void)reportAchievementIdentifier:(NSString*)identifier percentComplete:(float)percent;
 + (void)authenticatePlayer;
 - (void)authenticatePlayer;
++ (BOOL)hasGameCenterSupport;
 
 @property BOOL loggedIn;
 

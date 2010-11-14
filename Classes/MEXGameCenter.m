@@ -43,6 +43,10 @@
 	}
 }
 
++ (BOOL)hasGameCenterSupport {
+	return gameCenterEnabled;
+}
+
 #pragma mark -
 #pragma mark Leaderboards
 
