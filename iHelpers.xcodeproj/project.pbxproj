@@ -18,6 +18,8 @@
 		6F541B921274F02D00F88B56 /* AVAudioPlayer+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541B911274F02D00F88B56 /* AVAudioPlayer+iHelpers.m */; };
 		6F541BA81274F13300F88B56 /* MPMoviePlayerController+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */; };
 		6F541C0D1275D1CC00F88B56 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F541C0C1275D1CC00F88B56 /* iAd.framework */; };
+		6F6853D7128F5EB1001EA719 /* MEXGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */; };
+		6F685405128F6086001EA719 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F685404128F6086001EA719 /* GameKit.framework */; };
 		6FD8B0F8125F9BD100EFB4AE /* MEXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */; };
 		6FE867B4123262AC003A5D62 /* MEXMultitasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */; };
 		6FE867CA1232647A003A5D62 /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
@@ -43,6 +45,9 @@
 		6F541BA61274F13300F88B56 /* MPMoviePlayerController+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMoviePlayerController+iHelpers.h"; sourceTree = "<group>"; };
 		6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPMoviePlayerController+iHelpers.m"; sourceTree = "<group>"; };
 		6F541C0C1275D1CC00F88B56 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXGameCenter.h; sourceTree = "<group>"; };
+		6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXGameCenter.m; sourceTree = "<group>"; };
+		6F685404128F6086001EA719 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXRandom.h; sourceTree = "<group>"; };
 		6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXRandom.m; sourceTree = "<group>"; };
 		6FE867AC12326259003A5D62 /* iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHelpers.h; sourceTree = "<group>"; };
@@ -70,6 +75,7 @@
 				6F275F82123975C700289B22 /* AVFoundation.framework in Frameworks */,
 				6F275F9C123977A900289B22 /* MediaPlayer.framework in Frameworks */,
 				6F541C0D1275D1CC00F88B56 /* iAd.framework in Frameworks */,
+				6F685405128F6086001EA719 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +141,7 @@
 				6F275F81123975C700289B22 /* AVFoundation.framework */,
 				6F275F9B123977A900289B22 /* MediaPlayer.framework */,
 				6F541C0C1275D1CC00F88B56 /* iAd.framework */,
+				6F685404128F6086001EA719 /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +164,8 @@
 		6F4B6F971284C68A0077F00C /* Normal Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */,
+				6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */,
 				6FE867B2123262AC003A5D62 /* MEXMultitasking.h */,
 				6FE867B3123262AC003A5D62 /* MEXMultitasking.m */,
 				6FE867C81232647A003A5D62 /* MEXCracking.h */,
@@ -248,6 +257,7 @@
 				6F541B921274F02D00F88B56 /* AVAudioPlayer+iHelpers.m in Sources */,
 				6F541BA81274F13300F88B56 /* MPMoviePlayerController+iHelpers.m in Sources */,
 				6F4B6F841284C6190077F00C /* UIActionSheet+iHelpers.m in Sources */,
+				6F6853D7128F5EB1001EA719 /* MEXGameCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
