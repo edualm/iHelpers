@@ -20,6 +20,7 @@
 - (void)retryScoreReporting;
 + (void)reportAchievementIdentifier:(NSString*)identifier percentComplete:(float)percent;
 + (void)authenticatePlayer;
+- (void)authenticatePlayer;
 
 @property BOOL loggedIn;
 

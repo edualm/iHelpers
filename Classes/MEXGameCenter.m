@@ -11,10 +11,26 @@
 
 @implementation MEXGameCenter
 
+//
+// There's a reason for duplicated functions.
+// This way you can access some functions that need the class to be allocated, and still use
+// them without allocating it, if you don't want/need the additional things.
+//
+
 @synthesize loggedIn;
 
 #pragma mark -
 #pragma mark General
+
+- (void)authenticatePlayer {
+	if (gameCenterEnabled) {
+		[[GKLocalPlayer localPlayer] authenticateWithCompletionHandler:^(NSError *error) {
+			if (error == nil) {
+				[self flushScore];
+			}
+		}];
+	}
+}
 
 + (void)authenticatePlayer {
 	if (gameCenterEnabled) {
