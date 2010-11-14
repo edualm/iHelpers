@@ -7,7 +7,7 @@
 //
 
 #import "MEXiHelperTest.h"
-
+#import "UIActionSheet+iHelpers.h"
 
 @implementation MEXiHelperTest
 

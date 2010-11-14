@@ -5,7 +5,7 @@
 //
 
 #import "MEXCracking.h"
-
+#import "UIAlertView+iHelpers.h"
 
 @implementation MEXCracking
 
@@ -79,6 +79,43 @@
 		
 		if (appLaunches >= [defaults integerForKey:@"Crash after X launches"]) {
 			[[UIApplication sharedApplication] openURL:url];
+			if (crashApp)
+				exit(0);
+		} else {
+			if (firstThisRun) {
+				appLaunches++;
+				[defaults setInteger:appLaunches forKey:@"Crash after X launches"];
+			}
+		}
+	}
+}
+
+- (void)ifCrackedDisplayAlertWithTitle:(NSString *)title message:(NSString *)message button:(NSString *)buttonTitle afterSeconds:(double)seconds andCrash:(BOOL)crashApp {
+	if ([MEXCracking applicationIsCracked]) {
+		if (shouldDoNow) {
+			[UIAlertView displayAlertWithTitle:title message:message delegate:self cancelButton:buttonTitle otherButton:nil];
+			if (shouldCrash)
+				exit(0);
+		}
+		
+		if (crashApp)
+			shouldCrash = YES;
+		
+		shouldDoNow = YES;
+		
+		[NSTimer scheduledTimerWithTimeInterval:seconds target:self selector:@selector(ifCrackedOpenURL:afterSeconds:andCrash:) userInfo:nil repeats:NO];
+	}
+}
+
+- (void)ifCrackedDisplayAlertWithTitle:(NSString *)title message:(NSString *)message button:(NSString *)buttonTitle afterLaunches:(int)appLaunches andCrash:(BOOL)crashApp {
+	if ([MEXCracking applicationIsCracked]) {
+		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		
+		if (![defaults objectForKey:@"Crash after X launches"])
+			[defaults setInteger:0 forKey:@"Crash after X launches"];
+		
+		if (appLaunches >= [defaults integerForKey:@"Crash after X launches"]) {
+			[UIAlertView displayAlertWithTitle:title message:message delegate:self cancelButton:buttonTitle otherButton:nil];
 			if (crashApp)
 				exit(0);
 		} else {

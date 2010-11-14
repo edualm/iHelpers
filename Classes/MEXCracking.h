@@ -18,5 +18,7 @@
 - (void)ifCrackedCrashAfterSeconds:(double)seconds;
 - (void)ifCrackedOpenURL:(NSURL *)url afterSeconds:(double)seconds andCrash:(BOOL)crashApp;
 - (void)ifCrackedOpenURL:(NSURL *)url afterLaunches:(int)appLaunches andCrash:(BOOL)crashApp;
+- (void)ifCrackedDisplayAlertWithTitle:(NSString *)title message:(NSString *)message button:(NSString *)buttonTitle afterSeconds:(double)seconds andCrash:(BOOL)crashApp;
+- (void)ifCrackedDisplayAlertWithTitle:(NSString *)title message:(NSString *)message button:(NSString *)buttonTitle afterLaunches:(int)appLaunches andCrash:(BOOL)crashApp;
 
 @end
