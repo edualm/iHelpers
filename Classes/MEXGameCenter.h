@@ -21,4 +21,6 @@
 + (void)reportAchievementIdentifier:(NSString*)identifier percentComplete:(float)percent;
 + (void)authenticatePlayer;
 
+@property BOOL loggedIn;
+
 @end

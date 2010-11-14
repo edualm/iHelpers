@@ -11,14 +11,18 @@
 
 @implementation MEXGameCenter
 
+@synthesize loggedIn;
+
 #pragma mark -
 #pragma mark General
 
 + (void)authenticatePlayer {
 	if (gameCenterEnabled) {
 		[[GKLocalPlayer localPlayer] authenticateWithCompletionHandler:^(NSError *error) {
-			if (error == nil)
+			if (error == nil) {
 				[self flushScore];
+				[self setLoggedIn:YES];
+			}
 		}];
 	}
 }
