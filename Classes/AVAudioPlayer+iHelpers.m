@@ -8,10 +8,19 @@
 
 @implementation AVAudioPlayer (iHelpers)
 
+#if DEPRECATED_METHEODS_ENABLED
 + (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension {
 	NSString *soundPath = [[NSBundle mainBundle] pathForResource:fileName ofType:extension];  
 	AVAudioPlayer *sound = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];
 	sound.delegate = self;  
+	[sound play];
+}
+#endif
+
+- (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension {
+	NSString *soundPath = [[NSBundle mainBundle] pathForResource:fileName ofType:extension];  
+	AVAudioPlayer *sound = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];
+	[sound prepareToPlay];
 	[sound play];
 }
 

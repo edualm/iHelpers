@@ -4,6 +4,8 @@
 //  Import this file in order to use iHelpers.
 //
 
+#define DEPRECATED_METHEODS_ENABLED 0
+
 #import "MEXMultitasking.h"
 #import "MEXCracking.h"
 #import "UIAlertView+iHelpers.h"
