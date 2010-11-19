@@ -23,6 +23,5 @@
 - (void)authenticatePlayer;
 + (BOOL)hasGameCenterSupport;
 + (BOOL)isLoggedIn;
-+ (NSComparisonResult)compareVersion:(NSString *)leftVersion withVersion:(NSString *)rightVersion;
 
 @end

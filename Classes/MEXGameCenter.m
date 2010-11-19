@@ -41,7 +41,13 @@
 }
 
 + (BOOL)hasGameCenterSupport {
-	return gameCenterEnabled;
+	NSString *gcSysVer = @"4.1";
+	NSString *currSysVer = [[UIDevice currentDevice] systemVersion];
+	
+	if ([MEXComparision compareVersion:currSysVer withVersion:gcSysVer] == NSOrderedAscending)
+		return NO;
+	
+	return YES;
 }
 
 + (BOOL)isLoggedIn {
