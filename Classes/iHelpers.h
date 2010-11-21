@@ -15,6 +15,7 @@
 #import "MEXRandom.h"
 #import "MEXGameCenter.h"
 #import "MEXComparision.h"
+#import "MEXReachability.h"
 
 @class MEXCracking;
 @class MEXMultitasking;
@@ -22,5 +23,6 @@
 @class MEXRandom;
 @class MEXGameCenter;
 @class MEXComparision;
+@class MEXReachability;
 
 // MEXLog and the AVAudioPlayer forward class are untested code. Use at your own risk.

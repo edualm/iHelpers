@@ -20,6 +20,9 @@
 		6F541C0D1275D1CC00F88B56 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F541C0C1275D1CC00F88B56 /* iAd.framework */; };
 		6F6853D7128F5EB1001EA719 /* MEXGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */; };
 		6F685405128F6086001EA719 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F685404128F6086001EA719 /* GameKit.framework */; };
+		6F793C69129899F0004A3CB4 /* MEXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C68129899F0004A3CB4 /* MEXReachability.m */; };
+		6F793C7612989A34004A3CB4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C7512989A34004A3CB4 /* Reachability.m */; };
+		6F793CDD12989A7A004A3CB4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F793CDC12989A7A004A3CB4 /* SystemConfiguration.framework */; };
 		6FB6AECB1297208F00BF4992 /* MEXComparision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6AECA1297208F00BF4992 /* MEXComparision.m */; };
 		6FD8B0F8125F9BD100EFB4AE /* MEXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */; };
 		6FE867B4123262AC003A5D62 /* MEXMultitasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */; };
@@ -49,6 +52,11 @@
 		6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXGameCenter.h; sourceTree = "<group>"; };
 		6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXGameCenter.m; sourceTree = "<group>"; };
 		6F685404128F6086001EA719 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		6F793C67129899F0004A3CB4 /* MEXReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXReachability.h; sourceTree = "<group>"; };
+		6F793C68129899F0004A3CB4 /* MEXReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXReachability.m; sourceTree = "<group>"; };
+		6F793C7412989A34004A3CB4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6F793C7512989A34004A3CB4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6F793CDC12989A7A004A3CB4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6FB6AEC91297208F00BF4992 /* MEXComparision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXComparision.h; sourceTree = "<group>"; };
 		6FB6AECA1297208F00BF4992 /* MEXComparision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXComparision.m; sourceTree = "<group>"; };
 		6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXRandom.h; sourceTree = "<group>"; };
@@ -79,6 +87,7 @@
 				6F275F9C123977A900289B22 /* MediaPlayer.framework in Frameworks */,
 				6F541C0D1275D1CC00F88B56 /* iAd.framework in Frameworks */,
 				6F685405128F6086001EA719 /* GameKit.framework in Frameworks */,
+				6F793CDD12989A7A004A3CB4 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6FE867AC12326259003A5D62 /* iHelpers.h */,
+				6F793C6D12989A1E004A3CB4 /* Apple Classes */,
 				6F4B6F971284C68A0077F00C /* Normal Classes */,
 				6F4B6F961284C6850077F00C /* Forward Classes */,
 			);
@@ -145,6 +155,7 @@
 				6F275F9B123977A900289B22 /* MediaPlayer.framework */,
 				6F541C0C1275D1CC00F88B56 /* iAd.framework */,
 				6F685404128F6086001EA719 /* GameKit.framework */,
+				6F793CDC12989A7A004A3CB4 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,8 +190,19 @@
 				6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */,
 				6FB6AEC91297208F00BF4992 /* MEXComparision.h */,
 				6FB6AECA1297208F00BF4992 /* MEXComparision.m */,
+				6F793C67129899F0004A3CB4 /* MEXReachability.h */,
+				6F793C68129899F0004A3CB4 /* MEXReachability.m */,
 			);
 			name = "Normal Classes";
+			sourceTree = "<group>";
+		};
+		6F793C6D12989A1E004A3CB4 /* Apple Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F793C7412989A34004A3CB4 /* Reachability.h */,
+				6F793C7512989A34004A3CB4 /* Reachability.m */,
+			);
+			name = "Apple Classes";
 			sourceTree = "<group>";
 		};
 		6FE867E612326639003A5D62 /* Testing Classes */ = {
@@ -264,6 +286,8 @@
 				6F4B6F841284C6190077F00C /* UIActionSheet+iHelpers.m in Sources */,
 				6F6853D7128F5EB1001EA719 /* MEXGameCenter.m in Sources */,
 				6FB6AECB1297208F00BF4992 /* MEXComparision.m in Sources */,
+				6F793C69129899F0004A3CB4 /* MEXReachability.m in Sources */,
+				6F793C7612989A34004A3CB4 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
