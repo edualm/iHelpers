@@ -18,5 +18,6 @@
 - (void)backgroundTaskExpired;
 - (BOOL)longTaskEnabled;
 - (void)setLongTaskEnabled:(BOOL)status;
++ (BOOL)multitaskingSupported;
 
 @end
