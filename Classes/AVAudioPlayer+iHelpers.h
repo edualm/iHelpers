@@ -10,10 +10,7 @@
 
 @interface AVAudioPlayer (iHelpers)
 
-#if DEPRECATED_METHEODS_ENABLED
-+ (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension;
-#endif
-
++ (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension __TTDEPRECATED_METHOD;
 - (void)playSoundWithName:(NSString *)fileName type:(NSString *)extension;
 
 @end
