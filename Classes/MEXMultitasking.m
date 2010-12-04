@@ -10,6 +10,11 @@
 @implementation MEXMultitasking
 
 + (BOOL)multitaskingSupported {
+	
+	//
+	// Important reminder. Be sure to weak-link UIKit.framework, or else your application will crash in pre-iOS4 devices!
+	//
+	
 	NSString *minSysVer = @"4.0";
 	NSString *currSysVer = [[UIDevice currentDevice] systemVersion];
 	

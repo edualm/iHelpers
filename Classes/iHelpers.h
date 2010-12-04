@@ -14,6 +14,7 @@
 #import "MEXGameCenter.h"
 #import "MEXComparision.h"
 #import "MEXReachability.h"
+#include <AvailabilityMacros.h>
 
 @class MEXCracking;
 @class MEXMultitasking;
