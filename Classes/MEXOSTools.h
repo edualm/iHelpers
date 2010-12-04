@@ -10,7 +10,7 @@
 
 }
 
-- (NSString *)deviceType;
-- (int)deviceVersion;
++ (NSString *)deviceType;
++ (int)deviceVersion;
 
 @end

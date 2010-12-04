@@ -21,6 +21,8 @@
 	[cracking ifCrackedCrashAfterSeconds:5];
 	
 	NSLog(@"iHelpers by MegaEduX. Availavable freely at http://github.com/MegaEduX/iHelpers");
+	
+	NSLog(@"This is running on %@", [MEXOSTools deviceType]);
 }
 	
 - (IBAction)checkCrack {

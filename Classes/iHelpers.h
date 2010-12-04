@@ -4,6 +4,8 @@
 //  Import this file in order to use iHelpers.
 //
 
+#include <AvailabilityMacros.h>
+
 #import "MEXMultitasking.h"
 #import "MEXCracking.h"
 #import "UIAlertView+iHelpers.h"
@@ -14,7 +16,7 @@
 #import "MEXGameCenter.h"
 #import "MEXComparision.h"
 #import "MEXReachability.h"
-#include <AvailabilityMacros.h>
+#import "MEXOSTools.h"
 
 @class MEXCracking;
 @class MEXMultitasking;
@@ -23,5 +25,6 @@
 @class MEXGameCenter;
 @class MEXComparision;
 @class MEXReachability;
+@class MEXOSTools;
 
 // MEXLog and the AVAudioPlayer forward class are untested code. Use at your own risk.
