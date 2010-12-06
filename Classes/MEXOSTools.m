@@ -8,8 +8,17 @@
 
 @implementation MEXOSTools
 
-+ (NSString *)deviceType {
++ (NSString *)deviceTypeDistinguishingSimulator:(BOOL)distinguishSimulatorFromRealDevice {
 	NSString *platform = [UIDevice currentDevice].model;
+	if (distinguishSimulatorFromRealDevice) {
+		if ([platform hasSuffix:@"Simulator"]) {
+			if ([platform hasPrefix:@"iPhone"])
+				return @"iPhone Simulator";
+			if ([platform hasPrefix:@"iPad"])
+				return @"iPad Simulator";
+		}
+	}
+	
 	if ([platform hasPrefix:@"iPhone"])
 		return @"iPhone";
 	if ([platform hasPrefix:@"iPod"])

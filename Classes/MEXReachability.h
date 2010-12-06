@@ -11,4 +11,6 @@
 
 }
 
++ (BOOL)hasInternet;
+
 @end

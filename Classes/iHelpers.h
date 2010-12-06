@@ -4,6 +4,12 @@
 //  Import this file in order to use iHelpers.
 //
 
+//
+// 1. iHelpers can be used without any appreciation in your app.
+// 2. Derivative works of iHelpers can be made as long as you give appreciation.
+// 3. Please, do not redistribute iHelpers. Instead, tell the people to download it from GitHub. I am constantly pushing updates.
+//
+
 #include <AvailabilityMacros.h>
 
 #import "MEXMultitasking.h"
