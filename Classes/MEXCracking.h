@@ -14,6 +14,7 @@
 }
 
 + (BOOL)applicationIsCracked;
++ (BOOL)crackedIfReturnsNO;
 - (void)ifCrackedCrashAfterLaunches:(int)appLaunches;
 - (void)ifCrackedCrashAfterSeconds:(double)seconds;
 - (void)ifCrackedOpenURL:(NSURL *)url afterSeconds:(double)seconds andCrash:(BOOL)crashApp;

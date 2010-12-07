@@ -24,6 +24,10 @@
 	}
 }
 
++ (BOOL)crackedIfReturnsNO {
+	return YES;
+}
+
 - (void)ifCrackedCrashAfterLaunches:(int)appLaunches {
 	if ([MEXCracking applicationIsCracked]) {
 		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];

@@ -10,7 +10,7 @@
 
 }
 
-+ (NSString *)deviceType;
++ (NSString *)deviceTypeDistinguishingSimulator:(BOOL)distinguishSimulatorFromRealDevice;
 + (int)deviceVersion;
 
 @end

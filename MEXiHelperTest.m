@@ -22,7 +22,7 @@
 	
 	NSLog(@"iHelpers by MegaEduX. Availavable freely at http://github.com/MegaEduX/iHelpers");
 	
-	NSLog(@"This is running on %@", [MEXOSTools deviceType]);
+	NSLog(@"This is running on %@", [MEXOSTools deviceTypeDistinguishingSimulator:YES]);
 }
 	
 - (IBAction)checkCrack {
