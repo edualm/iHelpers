@@ -19,6 +19,10 @@
 		6F541B921274F02D00F88B56 /* AVAudioPlayer+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541B911274F02D00F88B56 /* AVAudioPlayer+iHelpers.m */; };
 		6F541BA81274F13300F88B56 /* MPMoviePlayerController+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */; };
 		6F541C0D1275D1CC00F88B56 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F541C0C1275D1CC00F88B56 /* iAd.framework */; };
+		6F667C4513B6BF69007CF811 /* UIImage+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4413B6BF69007CF811 /* UIImage+iHelpers.m */; };
+		6F667C4813B6C057007CF811 /* UIView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4713B6C057007CF811 /* UIView+iHelpers.m */; };
+		6F667C5213B6C158007CF811 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F667C5113B6C158007CF811 /* QuartzCore.framework */; };
+		6F667C5413B6C42B007CF811 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6F667C5313B6C42A007CF811 /* LICENSE */; };
 		6F6853D7128F5EB1001EA719 /* MEXGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */; };
 		6F685405128F6086001EA719 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F685404128F6086001EA719 /* GameKit.framework */; };
 		6F793C69129899F0004A3CB4 /* MEXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C68129899F0004A3CB4 /* MEXReachability.m */; };
@@ -52,6 +56,12 @@
 		6F541BA61274F13300F88B56 /* MPMoviePlayerController+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMoviePlayerController+iHelpers.h"; sourceTree = "<group>"; };
 		6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPMoviePlayerController+iHelpers.m"; sourceTree = "<group>"; };
 		6F541C0C1275D1CC00F88B56 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6F667C4313B6BF69007CF811 /* UIImage+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iHelpers.h"; sourceTree = "<group>"; };
+		6F667C4413B6BF69007CF811 /* UIImage+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iHelpers.m"; sourceTree = "<group>"; };
+		6F667C4613B6C056007CF811 /* UIView+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+iHelpers.h"; sourceTree = "<group>"; };
+		6F667C4713B6C057007CF811 /* UIView+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+iHelpers.m"; sourceTree = "<group>"; };
+		6F667C5113B6C158007CF811 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		6F667C5313B6C42A007CF811 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXGameCenter.h; sourceTree = "<group>"; };
 		6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXGameCenter.m; sourceTree = "<group>"; };
 		6F685404128F6086001EA719 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -83,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F667C5213B6C158007CF811 /* QuartzCore.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				6FE867AC12326259003A5D62 /* iHelpers.h */,
+				6F667C5313B6C42A007CF811 /* LICENSE */,
 				6F793C6D12989A1E004A3CB4 /* Apple Classes */,
 				6F4B6F971284C68A0077F00C /* Normal Classes */,
 				6F4B6F961284C6850077F00C /* Forward Classes */,
@@ -151,6 +163,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F667C5113B6C158007CF811 /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -174,6 +187,10 @@
 				6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */,
 				6F4B6F821284C6190077F00C /* UIActionSheet+iHelpers.h */,
 				6F4B6F831284C6190077F00C /* UIActionSheet+iHelpers.m */,
+				6F667C4313B6BF69007CF811 /* UIImage+iHelpers.h */,
+				6F667C4413B6BF69007CF811 /* UIImage+iHelpers.m */,
+				6F667C4613B6C056007CF811 /* UIView+iHelpers.h */,
+				6F667C4713B6C057007CF811 /* UIView+iHelpers.m */,
 			);
 			name = "Forward Classes";
 			sourceTree = "<group>";
@@ -269,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				6F667C5413B6C42B007CF811 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +312,8 @@
 				6F793C69129899F0004A3CB4 /* MEXReachability.m in Sources */,
 				6F793C7612989A34004A3CB4 /* Reachability.m in Sources */,
 				6F193A6012AAE0F800FF68F9 /* MEXOSTools.m in Sources */,
+				6F667C4513B6BF69007CF811 /* UIImage+iHelpers.m in Sources */,
+				6F667C4813B6C057007CF811 /* UIView+iHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +331,7 @@
 				GCC_PREFIX_HEADER = iHelpers_Prefix.pch;
 				INFOPLIST_FILE = "iHelpers-Info.plist";
 				PRODUCT_NAME = iHelpers;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -323,6 +344,7 @@
 				GCC_PREFIX_HEADER = iHelpers_Prefix.pch;
 				INFOPLIST_FILE = "iHelpers-Info.plist";
 				PRODUCT_NAME = iHelpers;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
