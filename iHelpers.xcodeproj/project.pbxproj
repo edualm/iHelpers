@@ -35,6 +35,7 @@
 		6FE867E512326633003A5D62 /* MEXiHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */; };
 		6FE8685912329DF0003A5D62 /* UIAlertView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */; };
 		6FE869D41232FEB6003A5D62 /* MEXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */; };
+		6FF49CB713C6107600A18E28 /* NSDate+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,8 @@
 		6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+iHelpers.m"; sourceTree = "<group>"; };
 		6FE869D21232FEB6003A5D62 /* MEXLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXLog.h; sourceTree = "<group>"; };
 		6FE869D31232FEB6003A5D62 /* MEXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXLog.m; sourceTree = "<group>"; };
+		6FF49CB513C6107500A18E28 /* NSDate+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iHelpers.h"; sourceTree = "<group>"; };
+		6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iHelpers.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iHelpers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHelpers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +194,8 @@
 				6F667C4413B6BF69007CF811 /* UIImage+iHelpers.m */,
 				6F667C4613B6C056007CF811 /* UIView+iHelpers.h */,
 				6F667C4713B6C057007CF811 /* UIView+iHelpers.m */,
+				6FF49CB513C6107500A18E28 /* NSDate+iHelpers.h */,
+				6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */,
 			);
 			name = "Forward Classes";
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 				6F193A6012AAE0F800FF68F9 /* MEXOSTools.m in Sources */,
 				6F667C4513B6BF69007CF811 /* UIImage+iHelpers.m in Sources */,
 				6F667C4813B6C057007CF811 /* UIView+iHelpers.m in Sources */,
+				6FF49CB713C6107600A18E28 /* NSDate+iHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

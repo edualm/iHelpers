@@ -19,5 +19,6 @@
 - (BOOL)longTaskEnabled;
 - (void)setLongTaskEnabled:(BOOL)status;
 + (BOOL)multitaskingSupported;
++ (BOOL)localPushSupported;
 
 @end

@@ -9,10 +9,11 @@
 
 @implementation MEXMultitasking
 
-+ (BOOL)multitaskingSupported {
++ (BOOL)localPushSupported {
 	
 	//
-	// Important reminder. Be sure to weak-link UIKit.framework, or else your application will crash in pre-iOS4 devices!
+	// Important reminder. Be sure to weak-link UIKit.framework, or else your application will crash
+    // on pre-iOS4 devices!
 	//
 	
 	NSString *minSysVer = @"4.0";
@@ -22,6 +23,12 @@
 		return NO;
 		
 	return YES;
+}
+
++ (BOOL)multitaskingSupported {
+    if (&UIApplicationDidEnterBackgroundNotification)
+        return YES;
+    return NO;
 }
 
 - (void)setNotificationForDate:(NSDate *)date withString:(NSString *)alertBody withSound:(NSString *)soundName withRepeatInterval:(int)repeatInterval cancellingOtherNotifications:(BOOL)boolean {
