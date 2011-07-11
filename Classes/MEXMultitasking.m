@@ -61,7 +61,7 @@
 		if (status) {
 			UIDevice *device = [UIDevice currentDevice];
 			
-			if ([device respondsToSelector:@selector(isMultitaskingSupported)]) {
+			if ([MEXMultitasking multitaskingSupported]) {
 				BOOL backgroundSupported = device.multitaskingSupported;
 				if (backgroundSupported) {
 					[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(backgrounded) name:UIApplicationDidEnterBackgroundNotification object:nil];
