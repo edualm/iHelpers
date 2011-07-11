@@ -5,17 +5,12 @@
 //
 
 #import "MEXGameCenter.h"
-#import "iHelpers.h"
+#import "UIAlertView+iHelpers.h"
+#import "MEXComparision.h"
 
 #define gameCenterEnabled (NSClassFromString(@"GKLocalPlayer")!=NULL)
 
 @implementation MEXGameCenter
-
-//
-// There's a reason for duplicated functions.
-// This way you can access some functions that need the class to be allocated, and still use
-// them without allocating it, if you don't want/need the additional things.
-//
 
 #pragma mark -
 #pragma mark General
@@ -125,8 +120,6 @@
 		[self reportScore:[defaults integerForKey:@"Score that failed to save"] forCategory:[defaults objectForKey:@"Category of that score"]];
 	}
 }
-
-// Aye, I know what I have here. :P
 
 - (void)flushScore {
 	if (gameCenterEnabled) {
