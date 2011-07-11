@@ -8,7 +8,8 @@
 
 @interface UIAlertView (iHelpers)
 
-+ (void)displayAlertWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle otherButton:(NSString *)otherButtonTitle, ...;
++ (void)displayAlertWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButton:(NSString *)cancelButtonTitle otherButton:(NSString *)otherButtonTitle/*, ...*/;
+- (void)showRelease;
 
 @end
 

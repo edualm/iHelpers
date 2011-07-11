@@ -58,7 +58,7 @@
 }
 
 - (IBAction)displayAlert {
-	[UIAlertView displayAlertWithTitle:@"Test Alert" message:@"Test Message" delegate:self cancelButton:@"Button" otherButton:@"Button", nil];
+	[UIAlertView displayAlertWithTitle:@"Test Alert" message:@"Test Message" delegate:self cancelButton:@"Button" otherButton:@"Button"];
 }
 
 - (IBAction)displayActionSheet {

@@ -17,11 +17,10 @@
 	NSBundle *bundle = [NSBundle mainBundle];
 	NSDictionary *info = [bundle infoDictionary];
 	
-	if ([info objectForKey: @"SignerIdentity"] != nil) {
+	if ([info objectForKey: @"SignerIdentity"] != nil)
 		return YES;
-	} else {
+	else
 		return NO;
-	}
 }
 
 + (BOOL)crackedIfReturnsNO {
@@ -35,9 +34,9 @@
 		if (![defaults objectForKey:@"Crash after X launches"])
 			[defaults setInteger:0 forKey:@"Crash after X launches"];
 	
-		if (appLaunches >= [defaults integerForKey:@"Crash after X launches"]) {
+		if (appLaunches >= [defaults integerForKey:@"Crash after X launches"])
 			exit(0);
-		} else {
+		else {
 			if (firstThisRun) {
 				appLaunches++;
 				[defaults setInteger:appLaunches forKey:@"Crash after X launches"];

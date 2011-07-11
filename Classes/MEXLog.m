@@ -14,15 +14,14 @@
 }
 
 - (void)log:(NSString *)string toKey:(NSString *)key {
-	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	[defaults setObject:string forKey:key];
+	[[NSUserDefaults standardUserDefaults] setObject:string forKey:key];
 }
 
 - (void)log:(NSString *)string toFile:(NSString *)filePath replacingContentsOfFile:(BOOL)replace appendingTimestamp:(BOOL)timestamp error:(NSError **)error {
 	if (replace) {
-		if (!timestamp) {
+		if (!timestamp)
 			[string writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:error];
-		} else {
+		else {
 			int timestamp = (int)[[NSDate date] timeIntervalSince1970];
 			stringToWrite = [NSString stringWithFormat:@"%d: %@", timestamp, string];
 			[stringToWrite writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:error];

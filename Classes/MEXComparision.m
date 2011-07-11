@@ -21,15 +21,13 @@
 	NSMutableArray *rightFields = [[NSMutableArray alloc] initWithArray:[rightVersion componentsSeparatedByString:@"."]];
 	
 	// Implict ".0" in case version doesn't have the same number of '.'
-	if ([leftFields count] < [rightFields count]) {
-		while ([leftFields count] != [rightFields count]) {
+	if ([leftFields count] < [rightFields count])
+		while ([leftFields count] != [rightFields count])
 			[leftFields addObject:@"0"];
-		}
-	} else if ([leftFields count] > [rightFields count]) {
-		while ([leftFields count] != [rightFields count]) {
+
+	else if ([leftFields count] > [rightFields count])
+		while ([leftFields count] != [rightFields count])
 			[rightFields addObject:@"0"];
-		}
-	}
 	
 	// Do a numeric comparison on each field
 	for(i = 0; i < [leftFields count]; i++) {

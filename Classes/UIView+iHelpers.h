@@ -1,15 +1,14 @@
 //
-//  UIView+iHelpers.h
-//  iHelpers
+//  UIView Extensions
 //
-//  Created by Eduardo Almeida on 11/06/26.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Part of iHelpers, an open-source project by Eduardo Almeida (MegaEduX.com).
 //
 
 #import <UIKit/UIKit.h>
 
 @interface UIView (iHelpers)
 
-- (void)saveToCameraRoll;
+- (void)saveToCameraRoll DEPRECATED_ATTRIBUTE;
+- (void)saveRepresentationToCameraRoll;
 
 @end

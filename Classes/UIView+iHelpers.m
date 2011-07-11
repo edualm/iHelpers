@@ -1,9 +1,7 @@
 //
-//  UIView+iHelpers.m
-//  iHelpers
+//  UIView Extensions
 //
-//  Created by Eduardo Almeida on 11/06/26.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Part of iHelpers, an open-source project by Eduardo Almeida (MegaEduX.com).
 //
 
 #import "UIView+iHelpers.h"
@@ -12,6 +10,18 @@
 @implementation UIView (iHelpers)
 
 - (void)saveToCameraRoll {
+    UIGraphicsBeginImageContext(self.bounds.size); 
+    
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    
+    UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    UIImageWriteToSavedPhotosAlbum(viewImage, nil, nil, nil);
+}
+
+- (void)saveRepresentationToCameraRoll {
     UIGraphicsBeginImageContext(self.bounds.size); 
     
     [self.layer renderInContext:UIGraphicsGetCurrentContext()];

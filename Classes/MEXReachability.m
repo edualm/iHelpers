@@ -13,11 +13,10 @@
 	Reachability *r = [Reachability reachabilityWithHostName:@"last.fm"];
 	NetworkStatus internetStatus = [r currentReachabilityStatus];
 	
-	if ((internetStatus != ReachableViaWiFi) && (internetStatus != ReachableViaWWAN)){
+	if ((internetStatus != ReachableViaWiFi) && (internetStatus != ReachableViaWWAN))
 		return NO;
-	} else {
+	else
 		return YES;
-	}
 }
 
 @end

@@ -3,7 +3,7 @@
 ///////////////////////////
 
 /////
-// Import this file to use iHelpers.
+// Import this file on every class you want to use iHelpers.
 // If you have a prefix (pch) file, you may just import iHelpers there.
 /////
 
@@ -16,8 +16,6 @@
 #import "MEXMultitasking.h"
 #import "MEXCracking.h"
 #import "MEXLog.h"
-#import "UIImage+iHelpers.h"
-#import "UIView+iHelpers.h"
 #import "MEXRandom.h"
 #import "MEXGameCenter.h"
 #import "MEXComparision.h"
@@ -29,9 +27,15 @@
 ///////////////////////
 
 #import "UIAlertView+iHelpers.h"
-#import "MPMoviePlayerController+iHelpers.h"
 #import "AVAudioPlayer+iHelpers.h"
+#import "MPMoviePlayerController+iHelpers.h"
 #import "UIActionSheet+iHelpers.h"
+#import "UIImage+iHelpers.h"
+#import "UIView+iHelpers.h"
+#import "NSDate+iHelpers.h"
+#import "MPMediaItem+iHelpers.h"
+#import "MPMediaItemCollection+iHelpers.h"
+#import "NSNumber+iHelpers.h"
 
   /////////////////////////
  /// Class Definitions ///
