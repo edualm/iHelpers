@@ -3,11 +3,10 @@
 //  iHelpers
 //
 //  Created by Eduardo Almeida on 10/09/04.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 MegaEduX. All rights reserved.
 //
 
 #import "MEXiHelperTest.h"
-#import "UIActionSheet+iHelpers.h"
 
 @implementation MEXiHelperTest
 
