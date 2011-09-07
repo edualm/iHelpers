@@ -6,6 +6,8 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+/** Stay tuned, folks. */
+
 #import <Foundation/Foundation.h>
 
 @interface MEXAprilFools : NSObject {

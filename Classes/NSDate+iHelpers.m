@@ -8,13 +8,13 @@
 
 @implementation NSDate (iHelpers)
 
-- (int)getTimeComponent:(int)MEXTimeComponent fromDate:(NSDate *)theDate {
+- (int)getTimeComponent:(MEXTimeComponent)timeComponent {
     NSCalendar *gregorian = [[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar] autorelease];
-    NSDateComponents *components = [gregorian components:(kCFCalendarUnitHour | kCFCalendarUnitMinute) fromDate:theDate];
+    NSDateComponents *components = [gregorian components:(kCFCalendarUnitHour | kCFCalendarUnitMinute) fromDate:self];
     
-    if (MEXTimeComponent == MEXMinutesComponent)
+    if (timeComponent == MEXMinutesComponent)
         return [components minute];
-    else if (MEXTimeComponent == MEXHoursComponent)
+    else if (timeComponent == MEXHoursComponent)
         return [components hour];
     
     return 0;

@@ -7,6 +7,14 @@
 #import "MEXMultitasking.h"
 #import "MEXComparision.h"
 
+@interface MEXMultitasking()
+
+- (void)backgrounded;
+- (void)foregrounded;
+- (void)backgroundTaskExpired;
+
+@end
+
 @implementation MEXMultitasking
 
 + (BOOL)localPushSupported {
@@ -31,7 +39,7 @@
     return NO;
 }
 
-- (void)setNotificationForDate:(NSDate *)date withString:(NSString *)alertBody withSound:(NSString *)soundName withRepeatInterval:(int)repeatInterval cancellingOtherNotifications:(BOOL)boolean {
+- (void)setNotificationForDate:(NSDate *)date withString:(NSString *)alertBody sound:(NSString *)soundName repeatInterval:(int)repeatInterval cancellingOtherNotifications:(BOOL)boolean {
 	if ([MEXMultitasking multitaskingSupported]) {
 		UIApplication *app = [UIApplication sharedApplication];
 		NSArray *notifications = [app scheduledLocalNotifications];

@@ -4,13 +4,21 @@
 //  Part of iHelpers, an open-source project by Eduardo Almeida (MegaEduX.com).
 //
 
+/** NSDate Extensions */
+
 #import <Foundation/Foundation.h>
 
-#define MEXMinutesComponent 0
-#define MEXHoursComponent 1
+typedef enum {
+    MEXMinutesComponent,
+    MEXHoursComponent
+} MEXTimeComponent;
 
 @interface NSDate (iHelpers)
 
-- (int)getTimeComponent:(int)MEXTimeComponent fromDate:(NSDate *)theDate;
+/** Gets a component from the current date.
+ * @param timeComponent The time component to get.
+ * @return An int containing the time component.
+ */
+- (int)getTimeComponent:(MEXTimeComponent)timeComponent;
 
 @end

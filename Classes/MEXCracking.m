@@ -7,6 +7,12 @@
 #import "MEXCracking.h"
 #import "UIAlertView+iHelpers.h"
 
+@interface MEXCracking()
+
++ (BOOL)crackedIfReturnsNO;
+
+@end
+
 @implementation MEXCracking
 
 - (id)init {

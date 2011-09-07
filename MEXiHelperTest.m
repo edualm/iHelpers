@@ -21,7 +21,7 @@
 	
 	NSLog(@"iHelpers by MegaEduX. Availavable freely at http://github.com/MegaEduX/iHelpers");
 	
-	NSLog(@"This is running on %@", [MEXOSTools deviceTypeDistinguishingSimulator:YES]);
+	NSLog(@"This is running on %@", [MEXOSTools deviceType:YES]);
 }
 	
 - (IBAction)checkCrack {
@@ -50,8 +50,8 @@
 - (IBAction)sendLocalNotification {
 	[multiTasking setNotificationForDate:[NSDate dateWithTimeIntervalSinceNow:10] 
 							  withString:@"This is a test notification." 
-							   withSound:nil 
-					  withRepeatInterval:0
+							   sound:nil 
+					  repeatInterval:0
 			cancellingOtherNotifications:YES];
 	NSLog(@"Please press the home button and wait.");
 }

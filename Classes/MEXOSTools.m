@@ -8,7 +8,7 @@
 
 @implementation MEXOSTools
 
-+ (NSString *)deviceTypeDistinguishingSimulator:(BOOL)distinguishSimulatorFromRealDevice {
++ (NSString *)deviceType:(BOOL)distinguishSimulatorFromRealDevice {
 	NSString *platform = [UIDevice currentDevice].model;
 	if (distinguishSimulatorFromRealDevice)
 		if ([platform hasSuffix:@"Simulator"])

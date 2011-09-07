@@ -7,15 +7,12 @@
 // If you have a prefix (pch) file, you may just import iHelpers there.
 /////
 
-#include <AvailabilityMacros.h>
-
   //////////////////////
  /// Normal Classes ///
 //////////////////////
 
 #import "MEXMultitasking.h"
 #import "MEXCracking.h"
-#import "MEXLog.h"
 #import "MEXRandom.h"
 #import "MEXGameCenter.h"
 #import "MEXComparision.h"

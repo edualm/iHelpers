@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		6FEBDAAE141834A000F8FF2E /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6FEBDAAF141834A100F8FF2E /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				6FEBDAB2141834A600F8FF2E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Everything;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -40,7 +54,57 @@
 		6FE867CA1232647A003A5D62 /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
 		6FE867E512326633003A5D62 /* MEXiHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */; };
 		6FE8685912329DF0003A5D62 /* UIAlertView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */; };
-		6FE869D41232FEB6003A5D62 /* MEXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE869D31232FEB6003A5D62 /* MEXLog.m */; };
+		6FEBDA53141833D600F8FF2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		6FEBDA5E141833E900F8FF2E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA5D141833E800F8FF2E /* AudioToolbox.framework */; };
+		6FEBDA60141833EE00F8FF2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA5F141833EE00F8FF2E /* QuartzCore.framework */; };
+		6FEBDA62141833F400F8FF2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA61141833F400F8FF2E /* UIKit.framework */; };
+		6FEBDA64141833FB00F8FF2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA63141833FB00F8FF2E /* CoreGraphics.framework */; };
+		6FEBDA661418340000F8FF2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA651418340000F8FF2E /* AVFoundation.framework */; };
+		6FEBDA681418340400F8FF2E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA671418340400F8FF2E /* MediaPlayer.framework */; };
+		6FEBDA6A1418340900F8FF2E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA691418340900F8FF2E /* iAd.framework */; };
+		6FEBDA6C1418340D00F8FF2E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA6B1418340C00F8FF2E /* GameKit.framework */; };
+		6FEBDA6E1418341400F8FF2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA6D1418341400F8FF2E /* SystemConfiguration.framework */; };
+		6FEBDA721418344E00F8FF2E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C7512989A34004A3CB4 /* Reachability.m */; };
+		6FEBDA741418344E00F8FF2E /* MEXGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */; };
+		6FEBDA761418344E00F8FF2E /* MEXMultitasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */; };
+		6FEBDA781418344E00F8FF2E /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
+		6FEBDA7A1418344E00F8FF2E /* MEXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */; };
+		6FEBDA7C1418344E00F8FF2E /* MEXComparision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6AECA1297208F00BF4992 /* MEXComparision.m */; };
+		6FEBDA7E1418344E00F8FF2E /* MEXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C68129899F0004A3CB4 /* MEXReachability.m */; };
+		6FEBDA801418344E00F8FF2E /* MEXOSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F193A5F12AAE0F800FF68F9 /* MEXOSTools.m */; };
+		6FEBDA821418344E00F8FF2E /* MEXAprilFools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5313CA869D009ADC70 /* MEXAprilFools.m */; };
+		6FEBDA841418344E00F8FF2E /* UIAlertView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */; };
+		6FEBDA861418344E00F8FF2E /* AVAudioPlayer+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541B911274F02D00F88B56 /* AVAudioPlayer+iHelpers.m */; };
+		6FEBDA881418344E00F8FF2E /* MPMoviePlayerController+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */; };
+		6FEBDA8A1418344E00F8FF2E /* UIActionSheet+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B6F831284C6190077F00C /* UIActionSheet+iHelpers.m */; };
+		6FEBDA8C1418344E00F8FF2E /* UIImage+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4413B6BF69007CF811 /* UIImage+iHelpers.m */; };
+		6FEBDA8E1418344E00F8FF2E /* UIView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4713B6C057007CF811 /* UIView+iHelpers.m */; };
+		6FEBDA901418344E00F8FF2E /* NSDate+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */; };
+		6FEBDA921418344E00F8FF2E /* MPMediaItem+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3013CA7BCB009ADC70 /* MPMediaItem+iHelpers.m */; };
+		6FEBDA941418344E00F8FF2E /* MPMediaItemCollection+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3313CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m */; };
+		6FEBDA961418344E00F8FF2E /* NSNumber+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3B13CA7E1E009ADC70 /* NSNumber+iHelpers.m */; };
+		6FEBDA981418344E00F8FF2E /* NSException+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5013CA8487009ADC70 /* NSException+iHelpers.m */; };
+		6FEBDA991418348000F8FF2E /* iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867AC12326259003A5D62 /* iHelpers.h */; };
+		6FEBDA9A1418348000F8FF2E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F793C7412989A34004A3CB4 /* Reachability.h */; };
+		6FEBDA9B1418348000F8FF2E /* MEXGameCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */; };
+		6FEBDA9C1418348000F8FF2E /* MEXMultitasking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867B2123262AC003A5D62 /* MEXMultitasking.h */; };
+		6FEBDA9D1418348000F8FF2E /* MEXCracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867C81232647A003A5D62 /* MEXCracking.h */; };
+		6FEBDA9E1418348000F8FF2E /* MEXRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */; };
+		6FEBDA9F1418348000F8FF2E /* MEXComparision.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB6AEC91297208F00BF4992 /* MEXComparision.h */; };
+		6FEBDAA01418348000F8FF2E /* MEXReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F793C67129899F0004A3CB4 /* MEXReachability.h */; };
+		6FEBDAA11418348000F8FF2E /* MEXOSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F193A5E12AAE0F800FF68F9 /* MEXOSTools.h */; };
+		6FEBDAA21418348000F8FF2E /* MEXAprilFools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A5213CA869C009ADC70 /* MEXAprilFools.h */; };
+		6FEBDAA31418348000F8FF2E /* UIAlertView+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE8685712329DF0003A5D62 /* UIAlertView+iHelpers.h */; };
+		6FEBDAA41418348000F8FF2E /* AVAudioPlayer+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F541B901274F02D00F88B56 /* AVAudioPlayer+iHelpers.h */; };
+		6FEBDAA51418348000F8FF2E /* MPMoviePlayerController+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F541BA61274F13300F88B56 /* MPMoviePlayerController+iHelpers.h */; };
+		6FEBDAA61418348000F8FF2E /* UIActionSheet+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4B6F821284C6190077F00C /* UIActionSheet+iHelpers.h */; };
+		6FEBDAA71418348000F8FF2E /* UIImage+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C4313B6BF69007CF811 /* UIImage+iHelpers.h */; };
+		6FEBDAA81418348000F8FF2E /* UIView+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C4613B6C056007CF811 /* UIView+iHelpers.h */; };
+		6FEBDAA91418348000F8FF2E /* NSDate+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF49CB513C6107500A18E28 /* NSDate+iHelpers.h */; };
+		6FEBDAAA1418348000F8FF2E /* MPMediaItem+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A2F13CA7BCB009ADC70 /* MPMediaItem+iHelpers.h */; };
+		6FEBDAAB1418348000F8FF2E /* MPMediaItemCollection+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3213CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.h */; };
+		6FEBDAAC1418348000F8FF2E /* NSNumber+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3A13CA7E1E009ADC70 /* NSNumber+iHelpers.h */; };
+		6FEBDAAD1418348000F8FF2E /* NSException+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A4F13CA8487009ADC70 /* NSException+iHelpers.h */; };
 		6FF49CB713C6107600A18E28 /* NSDate+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */; };
 /* End PBXBuildFile section */
 
@@ -101,8 +165,16 @@
 		6FE867E412326633003A5D62 /* MEXiHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXiHelperTest.m; sourceTree = "<group>"; };
 		6FE8685712329DF0003A5D62 /* UIAlertView+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+iHelpers.h"; sourceTree = "<group>"; };
 		6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+iHelpers.m"; sourceTree = "<group>"; };
-		6FE869D21232FEB6003A5D62 /* MEXLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXLog.h; sourceTree = "<group>"; };
-		6FE869D31232FEB6003A5D62 /* MEXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXLog.m; sourceTree = "<group>"; };
+		6FEBDA52141833D600F8FF2E /* libiHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEBDA5D141833E800F8FF2E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6FEBDA5F141833EE00F8FF2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6FEBDA61141833F400F8FF2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FEBDA63141833FB00F8FF2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FEBDA651418340000F8FF2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6FEBDA671418340400F8FF2E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6FEBDA691418340900F8FF2E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6FEBDA6B1418340C00F8FF2E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		6FEBDA6D1418341400F8FF2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6FF49CB513C6107500A18E28 /* NSDate+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iHelpers.h"; sourceTree = "<group>"; };
 		6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iHelpers.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iHelpers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHelpers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -126,6 +198,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6FEBDA4F141833D600F8FF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEBDA6E1418341400F8FF2E /* SystemConfiguration.framework in Frameworks */,
+				6FEBDA6C1418340D00F8FF2E /* GameKit.framework in Frameworks */,
+				6FEBDA6A1418340900F8FF2E /* iAd.framework in Frameworks */,
+				6FEBDA681418340400F8FF2E /* MediaPlayer.framework in Frameworks */,
+				6FEBDA661418340000F8FF2E /* AVFoundation.framework in Frameworks */,
+				6FEBDA64141833FB00F8FF2E /* CoreGraphics.framework in Frameworks */,
+				6FEBDA62141833F400F8FF2E /* UIKit.framework in Frameworks */,
+				6FEBDA60141833EE00F8FF2E /* QuartzCore.framework in Frameworks */,
+				6FEBDA5E141833E900F8FF2E /* AudioToolbox.framework in Frameworks */,
+				6FEBDA53141833D600F8FF2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -146,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* iHelpers.app */,
+				6FEBDA52141833D600F8FF2E /* libiHelpers.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +274,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6FEBDA6F1418342900F8FF2E /* libiHelpers */,
 				6FC98A3813CA7BF9009ADC70 /* AudioToolbox.framework */,
 				6F667C5113B6C158007CF811 /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -236,8 +327,6 @@
 				6FE867B3123262AC003A5D62 /* MEXMultitasking.m */,
 				6FE867C81232647A003A5D62 /* MEXCracking.h */,
 				6FE867C91232647A003A5D62 /* MEXCracking.m */,
-				6FE869D21232FEB6003A5D62 /* MEXLog.h */,
-				6FE869D31232FEB6003A5D62 /* MEXLog.m */,
 				6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */,
 				6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */,
 				6FB6AEC91297208F00BF4992 /* MEXComparision.h */,
@@ -270,7 +359,54 @@
 			name = "Testing Classes";
 			sourceTree = "<group>";
 		};
+		6FEBDA6F1418342900F8FF2E /* libiHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				6FEBDA6D1418341400F8FF2E /* SystemConfiguration.framework */,
+				6FEBDA6B1418340C00F8FF2E /* GameKit.framework */,
+				6FEBDA691418340900F8FF2E /* iAd.framework */,
+				6FEBDA671418340400F8FF2E /* MediaPlayer.framework */,
+				6FEBDA651418340000F8FF2E /* AVFoundation.framework */,
+				6FEBDA63141833FB00F8FF2E /* CoreGraphics.framework */,
+				6FEBDA61141833F400F8FF2E /* UIKit.framework */,
+				6FEBDA5F141833EE00F8FF2E /* QuartzCore.framework */,
+				6FEBDA5D141833E800F8FF2E /* AudioToolbox.framework */,
+			);
+			name = libiHelpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FEBDA50141833D600F8FF2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEBDA991418348000F8FF2E /* iHelpers.h in Headers */,
+				6FEBDA9A1418348000F8FF2E /* Reachability.h in Headers */,
+				6FEBDA9B1418348000F8FF2E /* MEXGameCenter.h in Headers */,
+				6FEBDA9C1418348000F8FF2E /* MEXMultitasking.h in Headers */,
+				6FEBDA9D1418348000F8FF2E /* MEXCracking.h in Headers */,
+				6FEBDA9E1418348000F8FF2E /* MEXRandom.h in Headers */,
+				6FEBDA9F1418348000F8FF2E /* MEXComparision.h in Headers */,
+				6FEBDAA01418348000F8FF2E /* MEXReachability.h in Headers */,
+				6FEBDAA11418348000F8FF2E /* MEXOSTools.h in Headers */,
+				6FEBDAA21418348000F8FF2E /* MEXAprilFools.h in Headers */,
+				6FEBDAA31418348000F8FF2E /* UIAlertView+iHelpers.h in Headers */,
+				6FEBDAA41418348000F8FF2E /* AVAudioPlayer+iHelpers.h in Headers */,
+				6FEBDAA51418348000F8FF2E /* MPMoviePlayerController+iHelpers.h in Headers */,
+				6FEBDAA61418348000F8FF2E /* UIActionSheet+iHelpers.h in Headers */,
+				6FEBDAA71418348000F8FF2E /* UIImage+iHelpers.h in Headers */,
+				6FEBDAA81418348000F8FF2E /* UIView+iHelpers.h in Headers */,
+				6FEBDAA91418348000F8FF2E /* NSDate+iHelpers.h in Headers */,
+				6FEBDAAA1418348000F8FF2E /* MPMediaItem+iHelpers.h in Headers */,
+				6FEBDAAB1418348000F8FF2E /* MPMediaItemCollection+iHelpers.h in Headers */,
+				6FEBDAAC1418348000F8FF2E /* NSNumber+iHelpers.h in Headers */,
+				6FEBDAAD1418348000F8FF2E /* NSException+iHelpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1D6058900D05DD3D006BFB54 /* iHelpers */ = {
@@ -290,6 +426,23 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* iHelpers.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6FEBDA51141833D600F8FF2E /* iHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEBDA5A141833D600F8FF2E /* Build configuration list for PBXNativeTarget "iHelpers" */;
+			buildPhases = (
+				6FEBDA4E141833D600F8FF2E /* Sources */,
+				6FEBDA4F141833D600F8FF2E /* Frameworks */,
+				6FEBDA50141833D600F8FF2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHelpers;
+			productName = iHelpers;
+			productReference = 6FEBDA52141833D600F8FF2E /* libiHelpers.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -307,12 +460,15 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* iHelpers */,
+				6FEBDA51141833D600F8FF2E /* iHelpers */,
+				6FEBDAAE141834A000F8FF2E /* Documentation */,
 			);
 		};
 /* End PBXProject section */
@@ -329,6 +485,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FEBDAB2141834A600F8FF2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f /usr/bin/appledoc ]\nthen\nappledoc --docset-bundle-id me.megaedux.ihelpers.docs --docset-bundle-name iHelpers --docset-copyright \"Copyright 2011 Eduardo Almeida\" --docset-feed-name iHelpers -p iHelpers --project-company \"Eduardo Almeida\" --company-id me.megaedux -h -d -o $TARGET_BUILD_DIR ${SRCROOT}/Classes\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -339,7 +511,6 @@
 				6FE867CA1232647A003A5D62 /* MEXCracking.m in Sources */,
 				6FE867E512326633003A5D62 /* MEXiHelperTest.m in Sources */,
 				6FE8685912329DF0003A5D62 /* UIAlertView+iHelpers.m in Sources */,
-				6FE869D41232FEB6003A5D62 /* MEXLog.m in Sources */,
 				6FD8B0F8125F9BD100EFB4AE /* MEXRandom.m in Sources */,
 				6F541B921274F02D00F88B56 /* AVAudioPlayer+iHelpers.m in Sources */,
 				6F541BA81274F13300F88B56 /* MPMoviePlayerController+iHelpers.m in Sources */,
@@ -357,6 +528,33 @@
 				6FC98A3C13CA7E1E009ADC70 /* NSNumber+iHelpers.m in Sources */,
 				6FC98A5113CA8487009ADC70 /* NSException+iHelpers.m in Sources */,
 				6FC98A5413CA869E009ADC70 /* MEXAprilFools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEBDA4E141833D600F8FF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEBDA721418344E00F8FF2E /* Reachability.m in Sources */,
+				6FEBDA741418344E00F8FF2E /* MEXGameCenter.m in Sources */,
+				6FEBDA761418344E00F8FF2E /* MEXMultitasking.m in Sources */,
+				6FEBDA781418344E00F8FF2E /* MEXCracking.m in Sources */,
+				6FEBDA7A1418344E00F8FF2E /* MEXRandom.m in Sources */,
+				6FEBDA7C1418344E00F8FF2E /* MEXComparision.m in Sources */,
+				6FEBDA7E1418344E00F8FF2E /* MEXReachability.m in Sources */,
+				6FEBDA801418344E00F8FF2E /* MEXOSTools.m in Sources */,
+				6FEBDA821418344E00F8FF2E /* MEXAprilFools.m in Sources */,
+				6FEBDA841418344E00F8FF2E /* UIAlertView+iHelpers.m in Sources */,
+				6FEBDA861418344E00F8FF2E /* AVAudioPlayer+iHelpers.m in Sources */,
+				6FEBDA881418344E00F8FF2E /* MPMoviePlayerController+iHelpers.m in Sources */,
+				6FEBDA8A1418344E00F8FF2E /* UIActionSheet+iHelpers.m in Sources */,
+				6FEBDA8C1418344E00F8FF2E /* UIImage+iHelpers.m in Sources */,
+				6FEBDA8E1418344E00F8FF2E /* UIView+iHelpers.m in Sources */,
+				6FEBDA901418344E00F8FF2E /* NSDate+iHelpers.m in Sources */,
+				6FEBDA921418344E00F8FF2E /* MPMediaItem+iHelpers.m in Sources */,
+				6FEBDA941418344E00F8FF2E /* MPMediaItemCollection+iHelpers.m in Sources */,
+				6FEBDA961418344E00F8FF2E /* NSNumber+iHelpers.m in Sources */,
+				6FEBDA981418344E00F8FF2E /* NSException+iHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +589,64 @@
 				PRODUCT_NAME = iHelpers;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FEBDA5B141833D600F8FF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/iHelpers.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iHelpers_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6FEBDA5C141833D600F8FF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/iHelpers.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iHelpers_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FEBDAB0141834A100F8FF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FEBDAB1141834A100F8FF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -431,6 +687,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6FEBDA5A141833D600F8FF2E /* Build configuration list for PBXNativeTarget "iHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEBDA5B141833D600F8FF2E /* Debug */,
+				6FEBDA5C141833D600F8FF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FEBDAAF141834A100F8FF2E /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEBDAB0141834A100F8FF2E /* Debug */,
+				6FEBDAB1141834A100F8FF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iHelpers" */ = {
 			isa = XCConfigurationList;
