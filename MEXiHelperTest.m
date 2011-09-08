@@ -11,6 +11,7 @@
 @implementation MEXiHelperTest
 
 - (void)awakeFromNib {
+    [MEXRandom randomNumberFrom:500 to:35];
 	multiTasking = [MEXMultitasking new];
 	cracking = [MEXCracking new];
 	

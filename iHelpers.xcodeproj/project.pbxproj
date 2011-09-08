@@ -42,6 +42,58 @@
 		6F793C69129899F0004A3CB4 /* MEXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C68129899F0004A3CB4 /* MEXReachability.m */; };
 		6F793C7612989A34004A3CB4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C7512989A34004A3CB4 /* Reachability.m */; };
 		6F793CDD12989A7A004A3CB4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F793CDC12989A7A004A3CB4 /* SystemConfiguration.framework */; };
+		6F9575F71418DA210096B3A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F9575F51418DA210096B3A8 /* InfoPlist.strings */; };
+		6F9575FC1418DA740096B3A8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C7512989A34004A3CB4 /* Reachability.m */; };
+		6F9575FD1418DA740096B3A8 /* MEXGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */; };
+		6F9575FE1418DA740096B3A8 /* MEXMultitasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */; };
+		6F9575FF1418DA740096B3A8 /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
+		6F9576001418DA740096B3A8 /* MEXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */; };
+		6F9576011418DA740096B3A8 /* MEXComparision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6AECA1297208F00BF4992 /* MEXComparision.m */; };
+		6F9576021418DA740096B3A8 /* MEXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C68129899F0004A3CB4 /* MEXReachability.m */; };
+		6F9576031418DA740096B3A8 /* MEXOSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F193A5F12AAE0F800FF68F9 /* MEXOSTools.m */; };
+		6F9576041418DA740096B3A8 /* MEXAprilFools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5313CA869D009ADC70 /* MEXAprilFools.m */; };
+		6F9576051418DA740096B3A8 /* UIAlertView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */; };
+		6F9576061418DA740096B3A8 /* AVAudioPlayer+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541B911274F02D00F88B56 /* AVAudioPlayer+iHelpers.m */; };
+		6F9576071418DA740096B3A8 /* MPMoviePlayerController+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */; };
+		6F9576081418DA740096B3A8 /* UIActionSheet+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B6F831284C6190077F00C /* UIActionSheet+iHelpers.m */; };
+		6F9576091418DA740096B3A8 /* UIImage+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4413B6BF69007CF811 /* UIImage+iHelpers.m */; };
+		6F95760A1418DA740096B3A8 /* UIView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4713B6C057007CF811 /* UIView+iHelpers.m */; };
+		6F95760B1418DA740096B3A8 /* NSDate+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */; };
+		6F95760C1418DA740096B3A8 /* MPMediaItem+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3013CA7BCB009ADC70 /* MPMediaItem+iHelpers.m */; };
+		6F95760D1418DA740096B3A8 /* MPMediaItemCollection+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3313CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m */; };
+		6F95760E1418DA740096B3A8 /* NSNumber+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3B13CA7E1E009ADC70 /* NSNumber+iHelpers.m */; };
+		6F95760F1418DA740096B3A8 /* NSException+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5013CA8487009ADC70 /* NSException+iHelpers.m */; };
+		6F9576101418DA880096B3A8 /* iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867AC12326259003A5D62 /* iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576111418DA880096B3A8 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F793C7412989A34004A3CB4 /* Reachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6F9576121418DA880096B3A8 /* MEXGameCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576131418DA880096B3A8 /* MEXMultitasking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867B2123262AC003A5D62 /* MEXMultitasking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576141418DA880096B3A8 /* MEXCracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867C81232647A003A5D62 /* MEXCracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576151418DA880096B3A8 /* MEXRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576161418DA880096B3A8 /* MEXComparision.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB6AEC91297208F00BF4992 /* MEXComparision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576171418DA880096B3A8 /* MEXReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F793C67129899F0004A3CB4 /* MEXReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576181418DA880096B3A8 /* MEXOSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F193A5E12AAE0F800FF68F9 /* MEXOSTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576191418DA880096B3A8 /* MEXAprilFools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A5213CA869C009ADC70 /* MEXAprilFools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F95761A1418DA880096B3A8 /* UIAlertView+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE8685712329DF0003A5D62 /* UIAlertView+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F95761B1418DA880096B3A8 /* AVAudioPlayer+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F541B901274F02D00F88B56 /* AVAudioPlayer+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F95761C1418DA880096B3A8 /* MPMoviePlayerController+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F541BA61274F13300F88B56 /* MPMoviePlayerController+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F95761D1418DA880096B3A8 /* UIActionSheet+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4B6F821284C6190077F00C /* UIActionSheet+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F95761E1418DA880096B3A8 /* UIImage+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C4313B6BF69007CF811 /* UIImage+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F95761F1418DA880096B3A8 /* UIView+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C4613B6C056007CF811 /* UIView+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576201418DA880096B3A8 /* NSDate+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF49CB513C6107500A18E28 /* NSDate+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576211418DA880096B3A8 /* MPMediaItem+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A2F13CA7BCB009ADC70 /* MPMediaItem+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576221418DA880096B3A8 /* MPMediaItemCollection+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3213CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576231418DA880096B3A8 /* NSNumber+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3A13CA7E1E009ADC70 /* NSNumber+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576241418DA880096B3A8 /* NSException+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A4F13CA8487009ADC70 /* NSException+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9576581418DEA90096B3A8 /* AudioToolbox.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3813CA7BF9009ADC70 /* AudioToolbox.framework */; };
+		6F9576591418DEA90096B3A8 /* QuartzCore.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C5113B6C158007CF811 /* QuartzCore.framework */; };
+		6F95765A1418DEA90096B3A8 /* UIKit.framework in Headers */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		6F95765B1418DEA90096B3A8 /* Foundation.framework in Headers */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		6F95765C1418DEA90096B3A8 /* CoreGraphics.framework in Headers */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		6F95765D1418DEA90096B3A8 /* AVFoundation.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F275F81123975C700289B22 /* AVFoundation.framework */; };
+		6F95765E1418DEA90096B3A8 /* MediaPlayer.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F275F9B123977A900289B22 /* MediaPlayer.framework */; };
+		6F95765F1418DEA90096B3A8 /* iAd.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F541C0C1275D1CC00F88B56 /* iAd.framework */; };
+		6F9576601418DEA90096B3A8 /* GameKit.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F685404128F6086001EA719 /* GameKit.framework */; };
+		6F9576611418DEA90096B3A8 /* SystemConfiguration.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F793CDC12989A7A004A3CB4 /* SystemConfiguration.framework */; };
 		6FB6AECB1297208F00BF4992 /* MEXComparision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6AECA1297208F00BF4992 /* MEXComparision.m */; };
 		6FC98A3113CA7BCB009ADC70 /* MPMediaItem+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3013CA7BCB009ADC70 /* MPMediaItem+iHelpers.m */; };
 		6FC98A3413CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3313CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m */; };
@@ -54,57 +106,6 @@
 		6FE867CA1232647A003A5D62 /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
 		6FE867E512326633003A5D62 /* MEXiHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867E412326633003A5D62 /* MEXiHelperTest.m */; };
 		6FE8685912329DF0003A5D62 /* UIAlertView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */; };
-		6FEBDA53141833D600F8FF2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		6FEBDA5E141833E900F8FF2E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA5D141833E800F8FF2E /* AudioToolbox.framework */; };
-		6FEBDA60141833EE00F8FF2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA5F141833EE00F8FF2E /* QuartzCore.framework */; };
-		6FEBDA62141833F400F8FF2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA61141833F400F8FF2E /* UIKit.framework */; };
-		6FEBDA64141833FB00F8FF2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA63141833FB00F8FF2E /* CoreGraphics.framework */; };
-		6FEBDA661418340000F8FF2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA651418340000F8FF2E /* AVFoundation.framework */; };
-		6FEBDA681418340400F8FF2E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA671418340400F8FF2E /* MediaPlayer.framework */; };
-		6FEBDA6A1418340900F8FF2E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA691418340900F8FF2E /* iAd.framework */; };
-		6FEBDA6C1418340D00F8FF2E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA6B1418340C00F8FF2E /* GameKit.framework */; };
-		6FEBDA6E1418341400F8FF2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBDA6D1418341400F8FF2E /* SystemConfiguration.framework */; };
-		6FEBDA721418344E00F8FF2E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C7512989A34004A3CB4 /* Reachability.m */; };
-		6FEBDA741418344E00F8FF2E /* MEXGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6853D6128F5EB1001EA719 /* MEXGameCenter.m */; };
-		6FEBDA761418344E00F8FF2E /* MEXMultitasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */; };
-		6FEBDA781418344E00F8FF2E /* MEXCracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867C91232647A003A5D62 /* MEXCracking.m */; };
-		6FEBDA7A1418344E00F8FF2E /* MEXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */; };
-		6FEBDA7C1418344E00F8FF2E /* MEXComparision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6AECA1297208F00BF4992 /* MEXComparision.m */; };
-		6FEBDA7E1418344E00F8FF2E /* MEXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F793C68129899F0004A3CB4 /* MEXReachability.m */; };
-		6FEBDA801418344E00F8FF2E /* MEXOSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F193A5F12AAE0F800FF68F9 /* MEXOSTools.m */; };
-		6FEBDA821418344E00F8FF2E /* MEXAprilFools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5313CA869D009ADC70 /* MEXAprilFools.m */; };
-		6FEBDA841418344E00F8FF2E /* UIAlertView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */; };
-		6FEBDA861418344E00F8FF2E /* AVAudioPlayer+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541B911274F02D00F88B56 /* AVAudioPlayer+iHelpers.m */; };
-		6FEBDA881418344E00F8FF2E /* MPMoviePlayerController+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F541BA71274F13300F88B56 /* MPMoviePlayerController+iHelpers.m */; };
-		6FEBDA8A1418344E00F8FF2E /* UIActionSheet+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B6F831284C6190077F00C /* UIActionSheet+iHelpers.m */; };
-		6FEBDA8C1418344E00F8FF2E /* UIImage+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4413B6BF69007CF811 /* UIImage+iHelpers.m */; };
-		6FEBDA8E1418344E00F8FF2E /* UIView+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F667C4713B6C057007CF811 /* UIView+iHelpers.m */; };
-		6FEBDA901418344E00F8FF2E /* NSDate+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */; };
-		6FEBDA921418344E00F8FF2E /* MPMediaItem+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3013CA7BCB009ADC70 /* MPMediaItem+iHelpers.m */; };
-		6FEBDA941418344E00F8FF2E /* MPMediaItemCollection+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3313CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m */; };
-		6FEBDA961418344E00F8FF2E /* NSNumber+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3B13CA7E1E009ADC70 /* NSNumber+iHelpers.m */; };
-		6FEBDA981418344E00F8FF2E /* NSException+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5013CA8487009ADC70 /* NSException+iHelpers.m */; };
-		6FEBDA991418348000F8FF2E /* iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867AC12326259003A5D62 /* iHelpers.h */; };
-		6FEBDA9A1418348000F8FF2E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F793C7412989A34004A3CB4 /* Reachability.h */; };
-		6FEBDA9B1418348000F8FF2E /* MEXGameCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */; };
-		6FEBDA9C1418348000F8FF2E /* MEXMultitasking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867B2123262AC003A5D62 /* MEXMultitasking.h */; };
-		6FEBDA9D1418348000F8FF2E /* MEXCracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867C81232647A003A5D62 /* MEXCracking.h */; };
-		6FEBDA9E1418348000F8FF2E /* MEXRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */; };
-		6FEBDA9F1418348000F8FF2E /* MEXComparision.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB6AEC91297208F00BF4992 /* MEXComparision.h */; };
-		6FEBDAA01418348000F8FF2E /* MEXReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F793C67129899F0004A3CB4 /* MEXReachability.h */; };
-		6FEBDAA11418348000F8FF2E /* MEXOSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F193A5E12AAE0F800FF68F9 /* MEXOSTools.h */; };
-		6FEBDAA21418348000F8FF2E /* MEXAprilFools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A5213CA869C009ADC70 /* MEXAprilFools.h */; };
-		6FEBDAA31418348000F8FF2E /* UIAlertView+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE8685712329DF0003A5D62 /* UIAlertView+iHelpers.h */; };
-		6FEBDAA41418348000F8FF2E /* AVAudioPlayer+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F541B901274F02D00F88B56 /* AVAudioPlayer+iHelpers.h */; };
-		6FEBDAA51418348000F8FF2E /* MPMoviePlayerController+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F541BA61274F13300F88B56 /* MPMoviePlayerController+iHelpers.h */; };
-		6FEBDAA61418348000F8FF2E /* UIActionSheet+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4B6F821284C6190077F00C /* UIActionSheet+iHelpers.h */; };
-		6FEBDAA71418348000F8FF2E /* UIImage+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C4313B6BF69007CF811 /* UIImage+iHelpers.h */; };
-		6FEBDAA81418348000F8FF2E /* UIView+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C4613B6C056007CF811 /* UIView+iHelpers.h */; };
-		6FEBDAA91418348000F8FF2E /* NSDate+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF49CB513C6107500A18E28 /* NSDate+iHelpers.h */; };
-		6FEBDAAA1418348000F8FF2E /* MPMediaItem+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A2F13CA7BCB009ADC70 /* MPMediaItem+iHelpers.h */; };
-		6FEBDAAB1418348000F8FF2E /* MPMediaItemCollection+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3213CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.h */; };
-		6FEBDAAC1418348000F8FF2E /* NSNumber+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3A13CA7E1E009ADC70 /* NSNumber+iHelpers.h */; };
-		6FEBDAAD1418348000F8FF2E /* NSException+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A4F13CA8487009ADC70 /* NSException+iHelpers.h */; };
 		6FF49CB713C6107600A18E28 /* NSDate+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */; };
 /* End PBXBuildFile section */
 
@@ -141,6 +142,11 @@
 		6F793C7412989A34004A3CB4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		6F793C7512989A34004A3CB4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		6F793CDC12989A7A004A3CB4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F9575F11418DA210096B3A8 /* iHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9575F41418DA210096B3A8 /* iHelpersFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHelpersFramework-Info.plist"; sourceTree = "<group>"; };
+		6F9575F61418DA210096B3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F9575F81418DA210096B3A8 /* iHelpersFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHelpersFramework-Prefix.pch"; sourceTree = "<group>"; };
+		6F95764C1418DE520096B3A8 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = ../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers; sourceTree = "<group>"; };
 		6FB6AEC91297208F00BF4992 /* MEXComparision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXComparision.h; sourceTree = "<group>"; };
 		6FB6AECA1297208F00BF4992 /* MEXComparision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXComparision.m; sourceTree = "<group>"; };
 		6FC98A2F13CA7BCB009ADC70 /* MPMediaItem+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMediaItem+iHelpers.h"; sourceTree = "<group>"; };
@@ -165,16 +171,6 @@
 		6FE867E412326633003A5D62 /* MEXiHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXiHelperTest.m; sourceTree = "<group>"; };
 		6FE8685712329DF0003A5D62 /* UIAlertView+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+iHelpers.h"; sourceTree = "<group>"; };
 		6FE8685812329DF0003A5D62 /* UIAlertView+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+iHelpers.m"; sourceTree = "<group>"; };
-		6FEBDA52141833D600F8FF2E /* libiHelpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiHelpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FEBDA5D141833E800F8FF2E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		6FEBDA5F141833EE00F8FF2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		6FEBDA61141833F400F8FF2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6FEBDA63141833FB00F8FF2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6FEBDA651418340000F8FF2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6FEBDA671418340400F8FF2E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		6FEBDA691418340900F8FF2E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		6FEBDA6B1418340C00F8FF2E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		6FEBDA6D1418341400F8FF2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6FF49CB513C6107500A18E28 /* NSDate+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iHelpers.h"; sourceTree = "<group>"; };
 		6FF49CB613C6107500A18E28 /* NSDate+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iHelpers.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iHelpers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHelpers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -198,20 +194,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FEBDA4F141833D600F8FF2E /* Frameworks */ = {
+		6F9575EC1418DA210096B3A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FEBDA6E1418341400F8FF2E /* SystemConfiguration.framework in Frameworks */,
-				6FEBDA6C1418340D00F8FF2E /* GameKit.framework in Frameworks */,
-				6FEBDA6A1418340900F8FF2E /* iAd.framework in Frameworks */,
-				6FEBDA681418340400F8FF2E /* MediaPlayer.framework in Frameworks */,
-				6FEBDA661418340000F8FF2E /* AVFoundation.framework in Frameworks */,
-				6FEBDA64141833FB00F8FF2E /* CoreGraphics.framework in Frameworks */,
-				6FEBDA62141833F400F8FF2E /* UIKit.framework in Frameworks */,
-				6FEBDA60141833EE00F8FF2E /* QuartzCore.framework in Frameworks */,
-				6FEBDA5E141833E900F8FF2E /* AudioToolbox.framework in Frameworks */,
-				6FEBDA53141833D600F8FF2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* iHelpers.app */,
-				6FEBDA52141833D600F8FF2E /* libiHelpers.a */,
+				6F9575F11418DA210096B3A8 /* iHelpers.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,10 +229,12 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				6F95764C1418DE520096B3A8 /* Headers */,
 				6FE867E612326639003A5D62 /* Testing Classes */,
 				080E96DDFE201D6D7F000001 /* iHelpers */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				6F9575F21418DA210096B3A8 /* iHelpersFramework */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -274,7 +262,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FEBDA6F1418342900F8FF2E /* libiHelpers */,
 				6FC98A3813CA7BF9009ADC70 /* AudioToolbox.framework */,
 				6F667C5113B6C158007CF811 /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -350,6 +337,24 @@
 			name = "Apple Classes";
 			sourceTree = "<group>";
 		};
+		6F9575F21418DA210096B3A8 /* iHelpersFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6F9575F31418DA210096B3A8 /* Supporting Files */,
+			);
+			path = iHelpersFramework;
+			sourceTree = "<group>";
+		};
+		6F9575F31418DA210096B3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9575F41418DA210096B3A8 /* iHelpersFramework-Info.plist */,
+				6F9575F51418DA210096B3A8 /* InfoPlist.strings */,
+				6F9575F81418DA210096B3A8 /* iHelpersFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6FE867E612326639003A5D62 /* Testing Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,50 +364,44 @@
 			name = "Testing Classes";
 			sourceTree = "<group>";
 		};
-		6FEBDA6F1418342900F8FF2E /* libiHelpers */ = {
-			isa = PBXGroup;
-			children = (
-				6FEBDA6D1418341400F8FF2E /* SystemConfiguration.framework */,
-				6FEBDA6B1418340C00F8FF2E /* GameKit.framework */,
-				6FEBDA691418340900F8FF2E /* iAd.framework */,
-				6FEBDA671418340400F8FF2E /* MediaPlayer.framework */,
-				6FEBDA651418340000F8FF2E /* AVFoundation.framework */,
-				6FEBDA63141833FB00F8FF2E /* CoreGraphics.framework */,
-				6FEBDA61141833F400F8FF2E /* UIKit.framework */,
-				6FEBDA5F141833EE00F8FF2E /* QuartzCore.framework */,
-				6FEBDA5D141833E800F8FF2E /* AudioToolbox.framework */,
-			);
-			name = libiHelpers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6FEBDA50141833D600F8FF2E /* Headers */ = {
+		6F9575ED1418DA210096B3A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FEBDA991418348000F8FF2E /* iHelpers.h in Headers */,
-				6FEBDA9A1418348000F8FF2E /* Reachability.h in Headers */,
-				6FEBDA9B1418348000F8FF2E /* MEXGameCenter.h in Headers */,
-				6FEBDA9C1418348000F8FF2E /* MEXMultitasking.h in Headers */,
-				6FEBDA9D1418348000F8FF2E /* MEXCracking.h in Headers */,
-				6FEBDA9E1418348000F8FF2E /* MEXRandom.h in Headers */,
-				6FEBDA9F1418348000F8FF2E /* MEXComparision.h in Headers */,
-				6FEBDAA01418348000F8FF2E /* MEXReachability.h in Headers */,
-				6FEBDAA11418348000F8FF2E /* MEXOSTools.h in Headers */,
-				6FEBDAA21418348000F8FF2E /* MEXAprilFools.h in Headers */,
-				6FEBDAA31418348000F8FF2E /* UIAlertView+iHelpers.h in Headers */,
-				6FEBDAA41418348000F8FF2E /* AVAudioPlayer+iHelpers.h in Headers */,
-				6FEBDAA51418348000F8FF2E /* MPMoviePlayerController+iHelpers.h in Headers */,
-				6FEBDAA61418348000F8FF2E /* UIActionSheet+iHelpers.h in Headers */,
-				6FEBDAA71418348000F8FF2E /* UIImage+iHelpers.h in Headers */,
-				6FEBDAA81418348000F8FF2E /* UIView+iHelpers.h in Headers */,
-				6FEBDAA91418348000F8FF2E /* NSDate+iHelpers.h in Headers */,
-				6FEBDAAA1418348000F8FF2E /* MPMediaItem+iHelpers.h in Headers */,
-				6FEBDAAB1418348000F8FF2E /* MPMediaItemCollection+iHelpers.h in Headers */,
-				6FEBDAAC1418348000F8FF2E /* NSNumber+iHelpers.h in Headers */,
-				6FEBDAAD1418348000F8FF2E /* NSException+iHelpers.h in Headers */,
+				6F9576101418DA880096B3A8 /* iHelpers.h in Headers */,
+				6F9576121418DA880096B3A8 /* MEXGameCenter.h in Headers */,
+				6F9576131418DA880096B3A8 /* MEXMultitasking.h in Headers */,
+				6F9576141418DA880096B3A8 /* MEXCracking.h in Headers */,
+				6F9576151418DA880096B3A8 /* MEXRandom.h in Headers */,
+				6F9576161418DA880096B3A8 /* MEXComparision.h in Headers */,
+				6F9576171418DA880096B3A8 /* MEXReachability.h in Headers */,
+				6F9576181418DA880096B3A8 /* MEXOSTools.h in Headers */,
+				6F9576191418DA880096B3A8 /* MEXAprilFools.h in Headers */,
+				6F95761A1418DA880096B3A8 /* UIAlertView+iHelpers.h in Headers */,
+				6F95761B1418DA880096B3A8 /* AVAudioPlayer+iHelpers.h in Headers */,
+				6F95761C1418DA880096B3A8 /* MPMoviePlayerController+iHelpers.h in Headers */,
+				6F95761D1418DA880096B3A8 /* UIActionSheet+iHelpers.h in Headers */,
+				6F95761E1418DA880096B3A8 /* UIImage+iHelpers.h in Headers */,
+				6F95761F1418DA880096B3A8 /* UIView+iHelpers.h in Headers */,
+				6F9576201418DA880096B3A8 /* NSDate+iHelpers.h in Headers */,
+				6F9576211418DA880096B3A8 /* MPMediaItem+iHelpers.h in Headers */,
+				6F9576221418DA880096B3A8 /* MPMediaItemCollection+iHelpers.h in Headers */,
+				6F9576231418DA880096B3A8 /* NSNumber+iHelpers.h in Headers */,
+				6F9576241418DA880096B3A8 /* NSException+iHelpers.h in Headers */,
+				6F9576111418DA880096B3A8 /* Reachability.h in Headers */,
+				6F9576581418DEA90096B3A8 /* AudioToolbox.framework in Headers */,
+				6F9576591418DEA90096B3A8 /* QuartzCore.framework in Headers */,
+				6F95765A1418DEA90096B3A8 /* UIKit.framework in Headers */,
+				6F95765B1418DEA90096B3A8 /* Foundation.framework in Headers */,
+				6F95765C1418DEA90096B3A8 /* CoreGraphics.framework in Headers */,
+				6F95765D1418DEA90096B3A8 /* AVFoundation.framework in Headers */,
+				6F95765E1418DEA90096B3A8 /* MediaPlayer.framework in Headers */,
+				6F95765F1418DEA90096B3A8 /* iAd.framework in Headers */,
+				6F9576601418DEA90096B3A8 /* GameKit.framework in Headers */,
+				6F9576611418DEA90096B3A8 /* SystemConfiguration.framework in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,22 +425,25 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* iHelpers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6FEBDA51141833D600F8FF2E /* iHelpers */ = {
+		6F9575F01418DA210096B3A8 /* iHelpersFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FEBDA5A141833D600F8FF2E /* Build configuration list for PBXNativeTarget "iHelpers" */;
+			buildConfigurationList = 6F9575FB1418DA210096B3A8 /* Build configuration list for PBXNativeTarget "iHelpersFramework" */;
 			buildPhases = (
-				6FEBDA4E141833D600F8FF2E /* Sources */,
-				6FEBDA4F141833D600F8FF2E /* Frameworks */,
-				6FEBDA50141833D600F8FF2E /* Headers */,
+				6F9575EA1418DA210096B3A8 /* ShellScript */,
+				6F9575EB1418DA210096B3A8 /* Sources */,
+				6F9575EC1418DA210096B3A8 /* Frameworks */,
+				6F9575ED1418DA210096B3A8 /* Headers */,
+				6F9575EE1418DA210096B3A8 /* Resources */,
+				6F9575EF1418DA210096B3A8 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iHelpers;
-			productName = iHelpers;
-			productReference = 6FEBDA52141833D600F8FF2E /* libiHelpers.a */;
-			productType = "com.apple.product-type.library.static";
+			name = iHelpersFramework;
+			productName = iHelpersFramework;
+			productReference = 6F9575F11418DA210096B3A8 /* iHelpers.framework */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -467,7 +469,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* iHelpers */,
-				6FEBDA51141833D600F8FF2E /* iHelpers */,
+				6F9575F01418DA210096B3A8 /* iHelpersFramework */,
 				6FEBDAAE141834A000F8FF2E /* Documentation */,
 			);
 		};
@@ -483,9 +485,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F9575EE1418DA210096B3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9575F71418DA210096B3A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6F9575EA1418DA210096B3A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		6F9575EF1418DA210096B3A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sf A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sf A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sf Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sf Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sf Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sf Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sf \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sf \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sf \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
 		6FEBDAB2141834A600F8FF2E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,34 +567,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FEBDA4E141833D600F8FF2E /* Sources */ = {
+		6F9575EB1418DA210096B3A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FEBDA721418344E00F8FF2E /* Reachability.m in Sources */,
-				6FEBDA741418344E00F8FF2E /* MEXGameCenter.m in Sources */,
-				6FEBDA761418344E00F8FF2E /* MEXMultitasking.m in Sources */,
-				6FEBDA781418344E00F8FF2E /* MEXCracking.m in Sources */,
-				6FEBDA7A1418344E00F8FF2E /* MEXRandom.m in Sources */,
-				6FEBDA7C1418344E00F8FF2E /* MEXComparision.m in Sources */,
-				6FEBDA7E1418344E00F8FF2E /* MEXReachability.m in Sources */,
-				6FEBDA801418344E00F8FF2E /* MEXOSTools.m in Sources */,
-				6FEBDA821418344E00F8FF2E /* MEXAprilFools.m in Sources */,
-				6FEBDA841418344E00F8FF2E /* UIAlertView+iHelpers.m in Sources */,
-				6FEBDA861418344E00F8FF2E /* AVAudioPlayer+iHelpers.m in Sources */,
-				6FEBDA881418344E00F8FF2E /* MPMoviePlayerController+iHelpers.m in Sources */,
-				6FEBDA8A1418344E00F8FF2E /* UIActionSheet+iHelpers.m in Sources */,
-				6FEBDA8C1418344E00F8FF2E /* UIImage+iHelpers.m in Sources */,
-				6FEBDA8E1418344E00F8FF2E /* UIView+iHelpers.m in Sources */,
-				6FEBDA901418344E00F8FF2E /* NSDate+iHelpers.m in Sources */,
-				6FEBDA921418344E00F8FF2E /* MPMediaItem+iHelpers.m in Sources */,
-				6FEBDA941418344E00F8FF2E /* MPMediaItemCollection+iHelpers.m in Sources */,
-				6FEBDA961418344E00F8FF2E /* NSNumber+iHelpers.m in Sources */,
-				6FEBDA981418344E00F8FF2E /* NSException+iHelpers.m in Sources */,
+				6F9575FC1418DA740096B3A8 /* Reachability.m in Sources */,
+				6F9575FD1418DA740096B3A8 /* MEXGameCenter.m in Sources */,
+				6F9575FE1418DA740096B3A8 /* MEXMultitasking.m in Sources */,
+				6F9575FF1418DA740096B3A8 /* MEXCracking.m in Sources */,
+				6F9576001418DA740096B3A8 /* MEXRandom.m in Sources */,
+				6F9576011418DA740096B3A8 /* MEXComparision.m in Sources */,
+				6F9576021418DA740096B3A8 /* MEXReachability.m in Sources */,
+				6F9576031418DA740096B3A8 /* MEXOSTools.m in Sources */,
+				6F9576041418DA740096B3A8 /* MEXAprilFools.m in Sources */,
+				6F9576051418DA740096B3A8 /* UIAlertView+iHelpers.m in Sources */,
+				6F9576061418DA740096B3A8 /* AVAudioPlayer+iHelpers.m in Sources */,
+				6F9576071418DA740096B3A8 /* MPMoviePlayerController+iHelpers.m in Sources */,
+				6F9576081418DA740096B3A8 /* UIActionSheet+iHelpers.m in Sources */,
+				6F9576091418DA740096B3A8 /* UIImage+iHelpers.m in Sources */,
+				6F95760A1418DA740096B3A8 /* UIView+iHelpers.m in Sources */,
+				6F95760B1418DA740096B3A8 /* NSDate+iHelpers.m in Sources */,
+				6F95760C1418DA740096B3A8 /* MPMediaItem+iHelpers.m in Sources */,
+				6F95760D1418DA740096B3A8 /* MPMediaItemCollection+iHelpers.m in Sources */,
+				6F95760E1418DA740096B3A8 /* NSNumber+iHelpers.m in Sources */,
+				6F95760F1418DA740096B3A8 /* NSException+iHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F9575F51418DA210096B3A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9575F61418DA210096B3A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -592,17 +639,22 @@
 			};
 			name = Release;
 		};
-		6FEBDA5B141833D600F8FF2E /* Debug */ = {
+		6F9575F91418DA210096B3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
 				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/iHelpers.dst;
+				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iHelpers_Prefix.pch;
+				GCC_PREFIX_HEADER = "iHelpersFramework/iHelpersFramework-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -610,29 +662,46 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "iHelpersFramework/iHelpersFramework-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = iHelpers;
 				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		6FEBDA5C141833D600F8FF2E /* Release */ = {
+		6F9575FA1418DA210096B3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
 				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/iHelpers.dst;
+				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iHelpers_Prefix.pch;
+				GCC_PREFIX_HEADER = "iHelpersFramework/iHelpersFramework-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "iHelpersFramework/iHelpersFramework-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = iHelpers;
 				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
 				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -688,11 +757,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FEBDA5A141833D600F8FF2E /* Build configuration list for PBXNativeTarget "iHelpers" */ = {
+		6F9575FB1418DA210096B3A8 /* Build configuration list for PBXNativeTarget "iHelpersFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FEBDA5B141833D600F8FF2E /* Debug */,
-				6FEBDA5C141833D600F8FF2E /* Release */,
+				6F9575F91418DA210096B3A8 /* Debug */,
+				6F9575FA1418DA210096B3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -703,6 +772,7 @@
 				6FEBDAB1141834A100F8FF2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iHelpers" */ = {
 			isa = XCConfigurationList;

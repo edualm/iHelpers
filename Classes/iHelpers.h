@@ -48,5 +48,3 @@
 @class MEXComparision;
 @class MEXReachability;
 @class MEXOSTools;
-
-// MEXLog and the AVAudioPlayer forward class are untested code. Use at your own risk.

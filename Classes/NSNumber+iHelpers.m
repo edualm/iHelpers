@@ -13,4 +13,18 @@
     return theId;
 }
 
+- (void)performOperation:(MEXOperation)operation withNumber:(NSNumber *)number {
+    if (operation == MEXAdd) {
+        self = [NSNumber numberWithInt:([self floatValue]+[number floatValue])];
+        return;
+    } else if (operation == MEXSubtract) {
+        self = [NSNumber numberWithInt:([self floatValue]-[number floatValue])];
+        return;
+    } else if (operation == MEXMultiply) {
+        self = [NSNumber numberWithInt:([self floatValue]*[number floatValue])];
+        return;
+    } else if (operation == MEXDivide)
+        self = [NSNumber numberWithInt:([self floatValue]/[number floatValue])];
+}
+
 @end

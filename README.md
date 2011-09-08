@@ -1,25 +1,51 @@
-**0. About.**
+iHelpers
+========
 
-iHelpers is a set of classes designed to help with iOS development, reducing some tasks that would require a large sum of lines of code to just one or two. It was created and is being manteinaned by Eduardo Almeida (MegaEduX.com). Also, keep in mind that this project is still very young, so it still misses a lot of features.
+iHelpers is a framework designed to help with iOS development, making some tasks that would require a large sum of lines of code require just one or two. It was created and is being manteinaned by Eduardo Almeida (MegaEduX.com). 
 
-**1. How can I use iHelpers?**
+This project is still very young, but already has a great sum of features!
 
-Easy way: Just drag the iHelpers group to your Xcode project, and include "iHelpers.h" whenever you want to use any of its classes.
+Why is iHelpers a framework?
+----------------------------
+
+iHelpers used to be just a set of classes that you could copy to your project and use. The problem is that iHelpers is a big project, with 20 classes and counting. This adds a lot of build time to your project. With frameworks, that time is reduced to none or almost none.
+
+How can I use iHelpers?
+-----------------------
+
+Compile the framework, and then add it to your project along with all the required frameworks.
+
+The required frameworks are the following:
+
+	UIKit.framework
+	Foundation.framework
+	CoreGraphics.framework
+	SystemConfiguration.framework
+	GameKit.framework
+	iAd.framework
+	MediaPlayer.framework
+	AVFoundation.framework
+	QuartzCore.framework
+
+Everywhere you want to use iHelpers, or on your prefix file, add:
+
+	#import <iHelpers/iHelpers.h>
+
+And it's done. You can also choose to generate and install the iHelpers documentation on Xcode by choosing the Documentation scheme on the iHelpers project. You need appledoc [http://www.gentlebytes.com/home/appledocapp/] installed though.
 
 Best way: Compile libiHelpers and use iHelpers as a library.
 
-**2. What can iHelpers do?**
+What can iHelpers do?
+---------------------
 
-iHelpers is becoming a bit too big to explain each class. It aims to do everything. It even comes with documentation. Just select the "Documentation" scheme on the iHelpers project. You need appledoc installed in /usr/bin/appledoc to compile it, though. 
+iHelpers is becoming a bit too big to explain each class. It aims to do everything. Just compile its documentation or look at the header files.
 
-**3. Do I need something special to compile iHelpers?**
+Does this work on the Mac OS X SDK?
+-----------------------------------
 
-Nope, just what you normally use to develop for iOS (Xcode with iOS4+ SDK).
+This was made with the iOS SDK in mind, so even though some classes may work (the NS… forward classes may, don't even think on the UI… ones), they are completely unsupported.
 
-**4. Let's talk about licenses...**
+Let's talk about licenses...
+-------------------------------
 
 iHelpers is distributed with a BSD license.
-
-**5. Does this work on the Mac OS X SDK?**
-
-This was made with the iOS SDK in mind, so even though some classes may work (don't get your hopes too high though), they are completely unsupported.

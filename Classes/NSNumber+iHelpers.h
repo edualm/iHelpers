@@ -6,6 +6,13 @@
 
 #import <MediaPlayer/MediaPlayer.h>
 
+typedef enum {
+    MEXAdd,
+    MEXSubtract,
+    MEXMultiply,
+    MEXDivide
+} MEXOperation;
+
 /** NSNumber Extensions */
 
 @interface NSNumber (iHelpers)
@@ -15,5 +22,11 @@
  * @return Returns the he media item ID.
  */
 - (NSNumber *)getPersistentIdForItem:(MPMediaItem *)mediaItem;
+
+/** Performs mathmatical operations with an NSNumber.
+ * @param operation The math operation to execute.
+ * @param number The other number to do operations with.
+ */
+- (void)performOperation:(MEXOperation)operation withNumber:(NSNumber *)number;
 
 @end
