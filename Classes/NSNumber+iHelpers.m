@@ -8,11 +8,6 @@
 
 @implementation NSNumber (iHelpers)
 
-- (NSNumber *)getPersistentIdForItem:(MPMediaItem *)mediaItem {
-    NSNumber *theId = [mediaItem valueForProperty:MPMediaItemPropertyPersistentID];
-    return theId;
-}
-
 - (void)performOperation:(MEXOperation)operation withNumber:(NSNumber *)number {
     if (operation == MEXAdd) {
         self = [NSNumber numberWithInt:([self floatValue]+[number floatValue])];

@@ -18,4 +18,9 @@
     return theItem;
 }
 
+- (NSNumber *)getPersistentId {
+    NSNumber *theId = [self valueForProperty:MPMediaItemPropertyPersistentID];
+    return theId;
+}
+
 @end

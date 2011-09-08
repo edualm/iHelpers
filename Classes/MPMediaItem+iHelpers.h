@@ -16,4 +16,9 @@
  */
 - (MPMediaItem *)itemWithSongId:(NSNumber *)persistentId;
 
+/** Generates a persistent ID from a media item.
+ * @return Returns the he media item ID.
+ */
+- (NSNumber *)getPersistentId;
+
 @end

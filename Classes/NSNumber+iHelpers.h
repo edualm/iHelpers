@@ -17,12 +17,6 @@ typedef enum {
 
 @interface NSNumber (iHelpers)
 
-/** Generates a persistent ID from a media item.
- * @param mediaItem The media item.
- * @return Returns the he media item ID.
- */
-- (NSNumber *)getPersistentIdForItem:(MPMediaItem *)mediaItem;
-
 /** Performs mathmatical operations with an NSNumber.
  * @param operation The math operation to execute.
  * @param number The other number to do operations with.
