@@ -62,7 +62,6 @@
 		6F95760C1418DA740096B3A8 /* MPMediaItem+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3013CA7BCB009ADC70 /* MPMediaItem+iHelpers.m */; };
 		6F95760D1418DA740096B3A8 /* MPMediaItemCollection+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3313CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m */; };
 		6F95760E1418DA740096B3A8 /* NSNumber+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3B13CA7E1E009ADC70 /* NSNumber+iHelpers.m */; };
-		6F95760F1418DA740096B3A8 /* NSException+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5013CA8487009ADC70 /* NSException+iHelpers.m */; };
 		6F9576101418DA880096B3A8 /* iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE867AC12326259003A5D62 /* iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F9576111418DA880096B3A8 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F793C7412989A34004A3CB4 /* Reachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6F9576121418DA880096B3A8 /* MEXGameCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6853D5128F5EB1001EA719 /* MEXGameCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,7 +82,6 @@
 		6F9576211418DA880096B3A8 /* MPMediaItem+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A2F13CA7BCB009ADC70 /* MPMediaItem+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F9576221418DA880096B3A8 /* MPMediaItemCollection+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3213CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F9576231418DA880096B3A8 /* NSNumber+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3A13CA7E1E009ADC70 /* NSNumber+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F9576241418DA880096B3A8 /* NSException+iHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A4F13CA8487009ADC70 /* NSException+iHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F9576581418DEA90096B3A8 /* AudioToolbox.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98A3813CA7BF9009ADC70 /* AudioToolbox.framework */; };
 		6F9576591418DEA90096B3A8 /* QuartzCore.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F667C5113B6C158007CF811 /* QuartzCore.framework */; };
 		6F95765A1418DEA90096B3A8 /* UIKit.framework in Headers */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -94,12 +92,12 @@
 		6F95765F1418DEA90096B3A8 /* iAd.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F541C0C1275D1CC00F88B56 /* iAd.framework */; };
 		6F9576601418DEA90096B3A8 /* GameKit.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F685404128F6086001EA719 /* GameKit.framework */; };
 		6F9576611418DEA90096B3A8 /* SystemConfiguration.framework in Headers */ = {isa = PBXBuildFile; fileRef = 6F793CDC12989A7A004A3CB4 /* SystemConfiguration.framework */; };
+		6F95768A1419196A0096B3A8 /* NSString+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9576891419196A0096B3A8 /* NSString+iHelpers.m */; };
 		6FB6AECB1297208F00BF4992 /* MEXComparision.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6AECA1297208F00BF4992 /* MEXComparision.m */; };
 		6FC98A3113CA7BCB009ADC70 /* MPMediaItem+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3013CA7BCB009ADC70 /* MPMediaItem+iHelpers.m */; };
 		6FC98A3413CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3313CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m */; };
 		6FC98A3913CA7BF9009ADC70 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC98A3813CA7BF9009ADC70 /* AudioToolbox.framework */; };
 		6FC98A3C13CA7E1E009ADC70 /* NSNumber+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A3B13CA7E1E009ADC70 /* NSNumber+iHelpers.m */; };
-		6FC98A5113CA8487009ADC70 /* NSException+iHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5013CA8487009ADC70 /* NSException+iHelpers.m */; };
 		6FC98A5413CA869E009ADC70 /* MEXAprilFools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC98A5313CA869D009ADC70 /* MEXAprilFools.m */; };
 		6FD8B0F8125F9BD100EFB4AE /* MEXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8B0F7125F9BD100EFB4AE /* MEXRandom.m */; };
 		6FE867B4123262AC003A5D62 /* MEXMultitasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE867B3123262AC003A5D62 /* MEXMultitasking.m */; };
@@ -146,6 +144,8 @@
 		6F9575F41418DA210096B3A8 /* iHelpersFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHelpersFramework-Info.plist"; sourceTree = "<group>"; };
 		6F9575F61418DA210096B3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F9575F81418DA210096B3A8 /* iHelpersFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHelpersFramework-Prefix.pch"; sourceTree = "<group>"; };
+		6F9576881419196A0096B3A8 /* NSString+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iHelpers.h"; sourceTree = "<group>"; };
+		6F9576891419196A0096B3A8 /* NSString+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iHelpers.m"; sourceTree = "<group>"; };
 		6FB6AEC91297208F00BF4992 /* MEXComparision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXComparision.h; sourceTree = "<group>"; };
 		6FB6AECA1297208F00BF4992 /* MEXComparision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXComparision.m; sourceTree = "<group>"; };
 		6FC98A2F13CA7BCB009ADC70 /* MPMediaItem+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMediaItem+iHelpers.h"; sourceTree = "<group>"; };
@@ -155,8 +155,6 @@
 		6FC98A3813CA7BF9009ADC70 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6FC98A3A13CA7E1E009ADC70 /* NSNumber+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+iHelpers.h"; sourceTree = "<group>"; };
 		6FC98A3B13CA7E1E009ADC70 /* NSNumber+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+iHelpers.m"; sourceTree = "<group>"; };
-		6FC98A4F13CA8487009ADC70 /* NSException+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+iHelpers.h"; sourceTree = "<group>"; };
-		6FC98A5013CA8487009ADC70 /* NSException+iHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+iHelpers.m"; sourceTree = "<group>"; };
 		6FC98A5213CA869C009ADC70 /* MEXAprilFools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXAprilFools.h; sourceTree = "<group>"; };
 		6FC98A5313CA869D009ADC70 /* MEXAprilFools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXAprilFools.m; sourceTree = "<group>"; };
 		6FD8B0F6125F9BD100EFB4AE /* MEXRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXRandom.h; sourceTree = "<group>"; };
@@ -297,8 +295,8 @@
 				6FC98A3313CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m */,
 				6FC98A3A13CA7E1E009ADC70 /* NSNumber+iHelpers.h */,
 				6FC98A3B13CA7E1E009ADC70 /* NSNumber+iHelpers.m */,
-				6FC98A4F13CA8487009ADC70 /* NSException+iHelpers.h */,
-				6FC98A5013CA8487009ADC70 /* NSException+iHelpers.m */,
+				6F9576881419196A0096B3A8 /* NSString+iHelpers.h */,
+				6F9576891419196A0096B3A8 /* NSString+iHelpers.m */,
 			);
 			name = "Forward Classes";
 			sourceTree = "<group>";
@@ -388,7 +386,6 @@
 				6F9576211418DA880096B3A8 /* MPMediaItem+iHelpers.h in Headers */,
 				6F9576221418DA880096B3A8 /* MPMediaItemCollection+iHelpers.h in Headers */,
 				6F9576231418DA880096B3A8 /* NSNumber+iHelpers.h in Headers */,
-				6F9576241418DA880096B3A8 /* NSException+iHelpers.h in Headers */,
 				6F9576111418DA880096B3A8 /* Reachability.h in Headers */,
 				6F9576581418DEA90096B3A8 /* AudioToolbox.framework in Headers */,
 				6F9576591418DEA90096B3A8 /* QuartzCore.framework in Headers */,
@@ -560,8 +557,8 @@
 				6FC98A3113CA7BCB009ADC70 /* MPMediaItem+iHelpers.m in Sources */,
 				6FC98A3413CA7BDA009ADC70 /* MPMediaItemCollection+iHelpers.m in Sources */,
 				6FC98A3C13CA7E1E009ADC70 /* NSNumber+iHelpers.m in Sources */,
-				6FC98A5113CA8487009ADC70 /* NSException+iHelpers.m in Sources */,
 				6FC98A5413CA869E009ADC70 /* MEXAprilFools.m in Sources */,
+				6F95768A1419196A0096B3A8 /* NSString+iHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +585,6 @@
 				6F95760C1418DA740096B3A8 /* MPMediaItem+iHelpers.m in Sources */,
 				6F95760D1418DA740096B3A8 /* MPMediaItemCollection+iHelpers.m in Sources */,
 				6F95760E1418DA740096B3A8 /* NSNumber+iHelpers.m in Sources */,
-				6F95760F1418DA740096B3A8 /* NSException+iHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
