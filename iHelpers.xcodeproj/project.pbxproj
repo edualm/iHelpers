@@ -146,7 +146,6 @@
 		6F9575F41418DA210096B3A8 /* iHelpersFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHelpersFramework-Info.plist"; sourceTree = "<group>"; };
 		6F9575F61418DA210096B3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F9575F81418DA210096B3A8 /* iHelpersFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHelpersFramework-Prefix.pch"; sourceTree = "<group>"; };
-		6F95764C1418DE520096B3A8 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = ../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers; sourceTree = "<group>"; };
 		6FB6AEC91297208F00BF4992 /* MEXComparision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXComparision.h; sourceTree = "<group>"; };
 		6FB6AECA1297208F00BF4992 /* MEXComparision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXComparision.m; sourceTree = "<group>"; };
 		6FC98A2F13CA7BCB009ADC70 /* MPMediaItem+iHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMediaItem+iHelpers.h"; sourceTree = "<group>"; };
@@ -229,7 +228,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				6F95764C1418DE520096B3A8 /* Headers */,
 				6FE867E612326639003A5D62 /* Testing Classes */,
 				080E96DDFE201D6D7F000001 /* iHelpers */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -764,6 +762,7 @@
 				6F9575FA1418DA210096B3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FEBDAAF141834A100F8FF2E /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
 			isa = XCConfigurationList;
