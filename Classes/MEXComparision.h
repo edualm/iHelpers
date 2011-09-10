@@ -8,9 +8,7 @@
 
 /** The class MEXComparision doesn't do much. */
 
-@interface MEXComparision : NSObject {
-
-}
+@interface MEXComparision : NSObject
 
 /** Compares an iOS version with another.
  * @return The comparision result.

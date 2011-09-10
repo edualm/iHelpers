@@ -33,8 +33,6 @@ Everywhere you want to use iHelpers, or on your prefix file, add:
 
 And it's done. You can also choose to generate and install the iHelpers documentation on Xcode by choosing the Documentation scheme on the iHelpers project. You need appledoc [http://www.gentlebytes.com/home/appledocapp/] installed though.
 
-Best way: Compile libiHelpers and use iHelpers as a library.
-
 What can iHelpers do?
 ---------------------
 

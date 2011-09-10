@@ -8,9 +8,7 @@
 
 /** The class MEXRandom is basically number randomization for everyone. */
 
-@interface MEXRandom : NSObject {
-
-}
+@interface MEXRandom : NSObject
 
 /** Generates a random number from _0_ to _number_. 
  * @return The generated number.

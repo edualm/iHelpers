@@ -10,9 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MEXAprilFools : NSObject {
-    
-}
+@interface MEXAprilFools : NSObject
 
 // You are supposed to call this with: [[MEXAprilFools alloc] init];
 

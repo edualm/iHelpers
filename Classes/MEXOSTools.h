@@ -8,9 +8,7 @@
 
 /** The class MEXOSTools intends to aid you in getting information about the device and its OS. */
 
-@interface MEXOSTools : NSObject {
-
-}
+@interface MEXOSTools : NSObject
 
 /** Returns the device type. 
  * @return The device type.
