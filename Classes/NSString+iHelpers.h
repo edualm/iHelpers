@@ -16,4 +16,21 @@
  */
 - (BOOL)containsString:(NSString *)string;
 
+/** Searches the string for two substrings, and returns the substring between then.
+ * @param start The first substring.
+ * @param end The second substring.
+ * @return Returns the substring if it exists, nil if it doesn't.
+ */
+- (NSString *)stringBetweenString:(NSString *)start andString:(NSString *)end;
+
+/** Removes whitespaces from a string.
+ * @return Returns the string without whitespaces.
+ */
+- (NSString *)stringByRemovingWhitespaces;
+
+/** Removes linebreaks from a string.
+ * @return Returns the string without linebreaks.
+ */
+- (NSString *)stringByRemovingLinebreaks;
+
 @end

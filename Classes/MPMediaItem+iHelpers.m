@@ -8,7 +8,7 @@
 
 @implementation MPMediaItem (iHelpers)
 
-- (MPMediaItem *)itemWithSongId:(NSNumber *)persistentId {
++ (MPMediaItem *)itemWithSongId:(NSNumber *)persistentId {
     MPMediaQuery *query = [MPMediaQuery songsQuery];
     MPMediaPropertyPredicate *predicate = [MPMediaPropertyPredicate predicateWithValue:persistentId forProperty:MPMediaItemPropertyPersistentID];
     [query addFilterPredicate:predicate];

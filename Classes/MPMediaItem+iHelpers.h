@@ -14,7 +14,7 @@
  * @param persistentId The media item ID.
  * @return Returns a media item.
  */
-- (MPMediaItem *)itemWithSongId:(NSNumber *)persistentId;
++ (MPMediaItem *)itemWithSongId:(NSNumber *)persistentId;
 
 /** Generates a persistent ID from a media item.
  * @return Returns the he media item ID.
